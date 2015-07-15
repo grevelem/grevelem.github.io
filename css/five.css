@@ -200,7 +200,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-weight: 700;
+	font-weight: 400;
 	color: #fff;
 }
 
@@ -255,8 +255,8 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fec503;
 }
 .line{
-	width: 80%;
-	margin-top: 30px;
+	width: 60%;
+	margin-top: 20px;
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 50px;
