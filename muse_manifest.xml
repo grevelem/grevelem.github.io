@@ -1,0 +1,220 @@
+<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="grevelem.github.io" resolutions="1x" timestamp="1440009132037">
+  <folder name="css">
+    <file name="site_global.css" crc="4052507572"/>
+    <file name="sports.css" crc="202229673" ref="sports"/>
+    <file name="football.css" crc="162744667" ref="football"/>
+    <file name="softball.css" crc="383165650" ref="softball"/>
+    <file name="wrestling.css" crc="4067191910" ref="wrestling"/>
+    <file name="girls-basketball.css" crc="4051532078" ref="girls-basketball"/>
+    <file name="register.css" crc="202229673" ref="register"/>
+    <file name="volleyball.css" crc="4078489871" ref="volleyball"/>
+    <file name="index.css" crc="3870889332" ref="index"/>
+    <file name="boys-basketball.css" crc="504357791" ref="boys-basketball"/>
+    <file name="baseball.css" crc="3776449676" ref="baseball"/>
+  </folder>
+  <folder name="assets">
+    <file name="githelp.docx" crc="362801293" seo="true" mt="1422999397000"/>
+    <file name="bookcovernew.pdf" crc="4294396047" seo="true" mt="1418931501000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="4255413929" ref="phone>index:phone>sports:phone>boys-basketball:phone>girls-basketball:phone>football:phone>baseball:phone>softball:phone>volleyball:phone>wrestling:phone>register:tablet>index:tablet>sports:tablet>boys-basketball:tablet>girls-basketball:tablet>football:tablet>baseball:tablet>softball:tablet>volleyball:tablet>wrestling:tablet>register:index:sports:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball:register"/>
+    <file name="museutils.js" crc="183364071" ref="phone>index:phone>sports:phone>boys-basketball:phone>girls-basketball:phone>football:phone>baseball:phone>softball:phone>volleyball:phone>wrestling:phone>register:tablet>index:tablet>sports:tablet>boys-basketball:tablet>girls-basketball:tablet>football:tablet>baseball:tablet>softball:tablet>volleyball:tablet>wrestling:tablet>register:index:sports:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball:register"/>
+    <file name="jquery.watch.js" crc="71412426" ref="phone>index:phone>sports:phone>boys-basketball:phone>girls-basketball:phone>football:phone>baseball:phone>softball:phone>volleyball:phone>wrestling:phone>register:tablet>index:tablet>sports:tablet>boys-basketball:tablet>girls-basketball:tablet>football:tablet>baseball:tablet>softball:tablet>volleyball:tablet>wrestling:tablet>register:index:sports:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball:register"/>
+    <file name="museredirect.js" crc="40941066" ref="tablet>index:tablet>boys-basketball:tablet>girls-basketball:tablet>football:tablet>baseball:tablet>softball:tablet>volleyball:tablet>wrestling"/>
+    <file name="webpro.js" crc="3803554875" ref="index:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball"/>
+    <file name="musewpslideshow.js" crc="242596657" ref="index:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball"/>
+    <file name="jquery.museoverlay.js" crc="493285861" ref="index:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball"/>
+    <file name="touchswipe.js" crc="4038331989" ref="index:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4004268962" ref="index:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball"/>
+    <file name="pie.js" crc="3827607177" ref="index:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball"/>
+    <file name="jquery.musemenu.js" crc="3957776250" ref="index:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball"/>
+    <file name="jquery.scrolleffects.js" crc="3860644955" ref="index:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball"/>
+    <file name="form_check.php" crc="277267350" ref="index"/>
+    <file name="form_throttle.php" crc="3908387251" ref="index"/>
+    <file name="form_process.php" crc="24249335" ref="index"/>
+    <file name="form-u809.php" crc="101301107" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:sports:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball:register"/>
+  </folder>
+  <folder name="images">
+    <file name="placeholder.jpg" crc="4051531941" seo="true" ref="index:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball"/>
+    <file name="blank.gif" crc="4208392903" ref="index:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball"/>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="pasted image 640x231.jpg" crc="4020136759" seo="true" ref="index:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball"/>
+    <file name="usaoa1.png" crc="3908655038" seo="true" ref="index:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball"/>
+    <file name="pasted image 1000x788.jpg" crc="504939877" seo="true" ref="index"/>
+    <file name="u1255-4-a.png" crc="3860327194" ref="index"/>
+    <file name="u1279.png" crc="100391239" ref="index"/>
+    <file name="u1279-a.png" crc="34521023" ref="index"/>
+    <file name="arrowmenudown.gif" crc="213132104" ref="index:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball"/>
+    <file name="u1345-4.png" crc="131589066" ref="index"/>
+    <file name="u1359-4.png" crc="222048172" ref="index"/>
+    <file name="u1424-4.png" crc="4086726886" ref="index"/>
+    <file name="u1494-4.png" crc="4254593951" ref="index"/>
+    <file name="u1448-4.png" crc="3852251019" ref="index"/>
+    <file name="u1525-4.png" crc="4157960735" ref="index"/>
+    <file name="u1365-4.png" crc="4289459907" ref="index"/>
+    <file name="u1547.png" crc="35303376" ref="index"/>
+    <file name="u1547-a.png" crc="157991570" ref="index"/>
+    <file name="placeholder-u913-fr.jpg" crc="450771769" ref="index:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball"/>
+    <file name="pasted image 1280x853.jpg" crc="3903372728" seo="true" ref="index:girls-basketball:softball"/>
+    <file name="u810-17.png" crc="3822326845" ref="index"/>
+    <file name="u810-17-r.png" crc="233697182" ref="index"/>
+    <file name="u810-17-m.png" crc="233697182" ref="index"/>
+    <file name="u810-17-fs.png" crc="331389903" ref="index"/>
+    <file name="u2815-4.png" crc="3919185192" ref="index"/>
+    <file name="u2111.png" crc="4158139426" ref="boys-basketball"/>
+    <file name="u2111-a.png" crc="197394974" ref="boys-basketball"/>
+    <file name="u2055.png" crc="3957872974" ref="boys-basketball"/>
+    <file name="u2055-a.png" crc="4059039160" ref="boys-basketball"/>
+    <file name="u2097-4-a.png" crc="131589066" ref="boys-basketball"/>
+    <file name="u2084-4.png" crc="222048172" ref="boys-basketball"/>
+    <file name="u2062-4.png" crc="4086726886" ref="boys-basketball"/>
+    <file name="u2069-4.png" crc="4254593951" ref="boys-basketball"/>
+    <file name="u2091-4.png" crc="3852251019" ref="boys-basketball"/>
+    <file name="u2103-4.png" crc="4157960735" ref="boys-basketball"/>
+    <file name="u2078-4.png" crc="4289459907" ref="boys-basketball"/>
+    <file name="u2118.png" crc="310942406" ref="boys-basketball"/>
+    <file name="u2118-a.png" crc="311631162" ref="boys-basketball"/>
+    <file name="pasted image 825x550.jpg" crc="3983604862" seo="true" ref="boys-basketball"/>
+    <file name="u2220.png" crc="4158139426" ref="girls-basketball"/>
+    <file name="u2220-a.png" crc="197394974" ref="girls-basketball"/>
+    <file name="u2164.png" crc="3957872974" ref="girls-basketball"/>
+    <file name="u2164-a.png" crc="4059039160" ref="girls-basketball"/>
+    <file name="u2206-4.png" crc="131589066" ref="girls-basketball"/>
+    <file name="u2193-4-a.png" crc="222048172" ref="girls-basketball"/>
+    <file name="u2171-4.png" crc="4086726886" ref="girls-basketball"/>
+    <file name="u2178-4.png" crc="4254593951" ref="girls-basketball"/>
+    <file name="u2200-4.png" crc="3852251019" ref="girls-basketball"/>
+    <file name="u2212-4.png" crc="4157960735" ref="girls-basketball"/>
+    <file name="u2187-4.png" crc="4289459907" ref="girls-basketball"/>
+    <file name="u2227.png" crc="310942406" ref="girls-basketball"/>
+    <file name="u2227-a.png" crc="311631162" ref="girls-basketball"/>
+    <file name="u3300.png" crc="3807575452" ref="wrestling"/>
+    <file name="u3300-a.png" crc="3895382484" ref="wrestling"/>
+    <file name="u3291.png" crc="411912516" ref="wrestling"/>
+    <file name="u3291-a.png" crc="3912131348" ref="wrestling"/>
+    <file name="u3251-4.png" crc="131589066" ref="wrestling"/>
+    <file name="u3273-4.png" crc="222048172" ref="wrestling"/>
+    <file name="u3287-4.png" crc="4086726886" ref="wrestling"/>
+    <file name="u3281-4.png" crc="4254593951" ref="wrestling"/>
+    <file name="u3260-4.png" crc="3852251019" ref="wrestling"/>
+    <file name="u3264-4.png" crc="4157960735" ref="wrestling"/>
+    <file name="u3246-4-a.png" crc="4289459907" ref="wrestling"/>
+    <file name="u3306.png" crc="4197644494" ref="wrestling"/>
+    <file name="u3306-a.png" crc="431127373" ref="wrestling"/>
+    <file name="pasted image 557x406.jpg" crc="3811531534" seo="true" ref="wrestling"/>
+    <file name="u2329.png" crc="4158139426" ref="football"/>
+    <file name="u2329-a.png" crc="197394974" ref="football"/>
+    <file name="u2273.png" crc="3957872974" ref="football"/>
+    <file name="u2273-a.png" crc="4059039160" ref="football"/>
+    <file name="u2315-4.png" crc="131589066" ref="football"/>
+    <file name="u2302-4.png" crc="222048172" ref="football"/>
+    <file name="u2280-4-a.png" crc="4086726886" ref="football"/>
+    <file name="u2287-4.png" crc="4254593951" ref="football"/>
+    <file name="u2309-4.png" crc="3852251019" ref="football"/>
+    <file name="u2321-4.png" crc="4157960735" ref="football"/>
+    <file name="u2296-4.png" crc="4289459907" ref="football"/>
+    <file name="u2336.png" crc="310942406" ref="football"/>
+    <file name="u2336-a.png" crc="311631162" ref="football"/>
+    <file name="pasted image 890x501.jpg" crc="411758471" seo="true" ref="football"/>
+    <file name="u2547.png" crc="4158139426" ref="softball"/>
+    <file name="u2547-a.png" crc="197394974" ref="softball"/>
+    <file name="u2491.png" crc="3957872974" ref="softball"/>
+    <file name="u2491-a.png" crc="4059039160" ref="softball"/>
+    <file name="u2533-4.png" crc="131589066" ref="softball"/>
+    <file name="u2520-4.png" crc="222048172" ref="softball"/>
+    <file name="u2498-4.png" crc="4086726886" ref="softball"/>
+    <file name="u2505-4.png" crc="4254593951" ref="softball"/>
+    <file name="u2527-4-a.png" crc="3852251019" ref="softball"/>
+    <file name="u2539-4.png" crc="4157960735" ref="softball"/>
+    <file name="u2514-4.png" crc="4289459907" ref="softball"/>
+    <file name="u2554.png" crc="310942406" ref="softball"/>
+    <file name="u2554-a.png" crc="311631162" ref="softball"/>
+    <file name="u2438.png" crc="4158139426" ref="baseball"/>
+    <file name="u2438-a.png" crc="197394974" ref="baseball"/>
+    <file name="u2382.png" crc="3957872974" ref="baseball"/>
+    <file name="u2382-a.png" crc="4059039160" ref="baseball"/>
+    <file name="u2424-4.png" crc="131589066" ref="baseball"/>
+    <file name="u2411-4.png" crc="222048172" ref="baseball"/>
+    <file name="u2389-4.png" crc="4086726886" ref="baseball"/>
+    <file name="u2396-4-a.png" crc="4254593951" ref="baseball"/>
+    <file name="u2418-4.png" crc="3852251019" ref="baseball"/>
+    <file name="u2430-4.png" crc="4157960735" ref="baseball"/>
+    <file name="u2405-4.png" crc="4289459907" ref="baseball"/>
+    <file name="u2445.png" crc="310942406" ref="baseball"/>
+    <file name="u2445-a.png" crc="311631162" ref="baseball"/>
+    <file name="pasted image 1280x8532.jpg" crc="406299589" seo="true" ref="baseball"/>
+    <file name="u2655.png" crc="3807575452" ref="volleyball"/>
+    <file name="u2655-a.png" crc="197394974" ref="volleyball"/>
+    <file name="u2599.png" crc="411912516" ref="volleyball"/>
+    <file name="u2599-a.png" crc="4059039160" ref="volleyball"/>
+    <file name="u2641-4.png" crc="131589066" ref="volleyball"/>
+    <file name="u2628-4.png" crc="222048172" ref="volleyball"/>
+    <file name="u2606-4.png" crc="4086726886" ref="volleyball"/>
+    <file name="u2613-4.png" crc="4254593951" ref="volleyball"/>
+    <file name="u2635-4.png" crc="3852251019" ref="volleyball"/>
+    <file name="u2647-4-a.png" crc="4157960735" ref="volleyball"/>
+    <file name="u2622-4.png" crc="4289459907" ref="volleyball"/>
+    <file name="u2662.png" crc="4197644494" ref="volleyball"/>
+    <file name="u2662-a.png" crc="311631162" ref="volleyball"/>
+    <file name="pasted image 595x280.jpg" crc="3910156272" seo="true" ref="volleyball"/>
+  </folder>
+  <folder name="tablet">
+    <folder name="css">
+      <file name="softball.css" crc="3964970448" ref="tablet>softball"/>
+      <file name="football.css" crc="3964970448" ref="tablet>football"/>
+      <file name="girls-basketball.css" crc="3964970448" ref="tablet>girls-basketball"/>
+      <file name="baseball.css" crc="3964970448" ref="tablet>baseball"/>
+      <file name="volleyball.css" crc="3964970448" ref="tablet>volleyball"/>
+      <file name="boys-basketball.css" crc="3964970448" ref="tablet>boys-basketball"/>
+      <file name="wrestling.css" crc="3964970448" ref="tablet>wrestling"/>
+      <file name="register.css" crc="3964970448" ref="tablet>register"/>
+      <file name="sports.css" crc="3964970448" ref="tablet>sports"/>
+      <file name="index.css" crc="3964970448" ref="tablet>index"/>
+    </folder>
+    <file name="index.html" crc="3777604410" seo="true" mt="1439995158850" redirect="false"/>
+    <file name="sports.html" crc="400199745" seo="true" mt="1439995158900" redirect="false"/>
+    <file name="boys-basketball.html" crc="4115655065" seo="true" mt="1439995158943" redirect="false"/>
+    <file name="girls-basketball.html" crc="393615442" seo="true" mt="1439995159028" redirect="false"/>
+    <file name="football.html" crc="4031174876" seo="true" mt="1439995159113" redirect="false"/>
+    <file name="baseball.html" crc="163080712" seo="true" mt="1439995159201" redirect="false"/>
+    <file name="softball.html" crc="81108009" seo="true" mt="1439995159284" redirect="false"/>
+    <file name="volleyball.html" crc="362199139" seo="true" mt="1439995159363" redirect="false"/>
+    <file name="wrestling.html" crc="4251384850" seo="true" mt="1439995159446" redirect="false"/>
+    <file name="register.html" crc="4224053400" seo="true" mt="1439995159533" redirect="false"/>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="baseball.css" crc="4107295331" ref="phone>baseball"/>
+      <file name="sports.css" crc="4107295331" ref="phone>sports"/>
+      <file name="girls-basketball.css" crc="4107295331" ref="phone>girls-basketball"/>
+      <file name="index.css" crc="4107295331" ref="phone>index"/>
+      <file name="volleyball.css" crc="4107295331" ref="phone>volleyball"/>
+      <file name="softball.css" crc="4107295331" ref="phone>softball"/>
+      <file name="wrestling.css" crc="4107295331" ref="phone>wrestling"/>
+      <file name="boys-basketball.css" crc="4107295331" ref="phone>boys-basketball"/>
+      <file name="register.css" crc="4107295331" ref="phone>register"/>
+      <file name="football.css" crc="4107295331" ref="phone>football"/>
+    </folder>
+    <file name="index.html" crc="322330661" seo="true" mt="1439995159605" redirect="false"/>
+    <file name="sports.html" crc="4070487133" seo="true" mt="1439995159606" redirect="false"/>
+    <file name="boys-basketball.html" crc="4171410206" seo="true" mt="1439995159607" redirect="false"/>
+    <file name="girls-basketball.html" crc="420091069" seo="true" mt="1439995159607" redirect="false"/>
+    <file name="football.html" crc="3853840559" seo="true" mt="1439995159608" redirect="false"/>
+    <file name="baseball.html" crc="195532941" seo="true" mt="1439995159609" redirect="false"/>
+    <file name="softball.html" crc="4061381688" seo="true" mt="1439995159610" redirect="false"/>
+    <file name="volleyball.html" crc="194456047" seo="true" mt="1439995159610" redirect="false"/>
+    <file name="wrestling.html" crc="437648694" seo="true" mt="1439995159611" redirect="false"/>
+    <file name="register.html" crc="246700130" seo="true" mt="1439995159612" redirect="false"/>
+  </folder>
+  <file name="index.html" crc="3934247575" seo="true" mt="1440008867443" redirect="true"/>
+  <file name="sports.html" crc="3857469420" seo="true" mt="1439999365505" redirect="false"/>
+  <file name="boys-basketball.html" crc="431672711" seo="true" mt="1440002746538" redirect="true"/>
+  <file name="girls-basketball.html" crc="463094295" seo="true" mt="1440005795332" redirect="true"/>
+  <file name="wrestling.html" crc="463864999" seo="true" mt="1440003847589" redirect="true"/>
+  <file name="football.html" crc="4038134785" seo="true" mt="1440005804738" redirect="true"/>
+  <file name="softball.html" crc="509547861" seo="true" mt="1440005830350" redirect="true"/>
+  <file name="baseball.html" crc="66430610" seo="true" mt="1440005817906" redirect="true"/>
+  <file name="volleyball.html" crc="230589384" seo="true" mt="1440009092806" redirect="true"/>
+  <file name="register.html" crc="4087287569" seo="true" mt="1439999365505" redirect="false"/>
+</manifest>
