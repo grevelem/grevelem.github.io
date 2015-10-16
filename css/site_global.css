@@ -135,6 +135,24 @@ a.nontext /* used to override default properties of 'a' tag */
 	padding: 0px;
 }
 
+.Name
+{
+	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px;
+}
+
+.Position
+{
+	color: #22B573;
+	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+	font-size: 11px;
+	text-align: center;
+	padding: 0px;
+}
+
 .list0 li:before
 {
 	position: absolute;
