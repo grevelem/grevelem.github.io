@@ -85,21 +85,27 @@ body
 	body { text-rendering:auto; }
 }
 
+a
+{
+	color: inherit;
+	text-decoration: inherit;
+}
+
 a:link
 {
-	color: #0000FF;
+	color: #45A6A3;
 	text-decoration: underline;
 }
 
 a:visited
 {
-	color: #800080;
+	color: #7F7F7F;
 	text-decoration: underline;
 }
 
 a:hover
 {
-	color: #0000FF;
+	color: #FFFFFF;
 	text-decoration: underline;
 }
 
@@ -135,22 +141,64 @@ a.nontext /* used to override default properties of 'a' tag */
 	padding: 0px;
 }
 
-.Name
+.h2
 {
-	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
-	font-size: 24px;
-	font-weight: bold;
-	text-align: center;
+	color: #000000;
+	font-family: nimbus-sans, sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
 	padding: 0px;
 }
 
-.Position
+.h1
 {
-	color: #22B573;
-	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
-	font-size: 11px;
-	text-align: center;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	font-size: 14px;
 	padding: 0px;
+}
+
+.btn_text
+{
+	color: #000000;
+	font-family: nimbus-sans, sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+.people1
+{
+	color: #7F7F7F;
+	font-family: museo-slab, serif;
+	font-weight: 100;
+}
+
+.article_thumb1
+{
+	color: #FFFFFF;
+	font-family: nimbus-sans, sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+.nav1
+{
+	color: #FFFFFF;
+	font-family: nimbus-sans, sans-serif;
+	font-size: 10px;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+.stroke_type1
+{
+	color: #3C3C3C;
+	font-family: open-sans, sans-serif;
+	font-weight: 600;
+	letter-spacing: 3px;
 }
 
 .list0 li:before

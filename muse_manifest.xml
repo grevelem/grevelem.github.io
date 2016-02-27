@@ -1,237 +1,222 @@
-<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="grevelem.github.io" resolutions="1x" timestamp="1445029657957">
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="grevelem.github.io" resolutions="1x,2x" timestamp="1456541365292">
   <folder name="css">
-    <file name="site_global.css" crc="350533206"/>
-    <file name="sports.css" crc="202229673" ref="sports"/>
-    <file name="football.css" crc="4169048982" ref="football"/>
-    <file name="softball.css" crc="388894582" ref="softball"/>
-    <file name="wrestling.css" crc="340536782" ref="wrestling"/>
-    <file name="girls-basketball.css" crc="97589170" ref="girls-basketball"/>
-    <file name="register.css" crc="4222364648" ref="register"/>
-    <file name="volleyball.css" crc="251439911" ref="volleyball"/>
-    <file name="index.css" crc="4285370409" ref="index"/>
-    <file name="boys-basketball.css" crc="35593760" ref="boys-basketball"/>
-    <file name="baseball.css" crc="112641239" ref="baseball"/>
-    <file name="executive-board.css" crc="3976148671" ref="executive-board"/>
+    <file name="site_global.css" crc="3996981612"/>
+    <file name="master_master-light.css" crc="503765301" ref="work-experience:thanks:contact:portfolio:index"/>
+    <file name="work-experience.css" crc="173899361" ref="work-experience"/>
+    <file name="thanks.css" crc="138105889" ref="thanks"/>
+    <file name="contact.css" crc="325179745" ref="contact"/>
+    <file name="portfolio.css" crc="150159292" ref="portfolio"/>
+    <file name="index.css" crc="3851711145" ref="index"/>
   </folder>
   <folder name="assets">
-    <file name="githelp.docx" crc="362801293" seo="true" mt="1422999397000"/>
-    <file name="bookcovernew.pdf" crc="4294396047" seo="true" mt="1418931501000"/>
+    <file name="emily-grevel-resume-spring-2016.pdf" crc="3784284962" seo="true" mt="1456414010000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="4255413929" ref="index:sports:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball:register:executive-board"/>
-    <file name="museutils.js" crc="183364071" ref="index:sports:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball:register:executive-board"/>
-    <file name="jquery.watch.js" crc="71412426" ref="index:sports:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball:register:executive-board"/>
-    <file name="webpro.js" crc="3803554875" ref="index:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball:register:executive-board"/>
-    <file name="musewpslideshow.js" crc="242596657" ref="index:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball:executive-board"/>
-    <file name="jquery.museoverlay.js" crc="493285861" ref="index:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball:executive-board"/>
-    <file name="touchswipe.js" crc="4038331989" ref="index:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball:executive-board"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4004268962" ref="index:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball"/>
-    <file name="pie.js" crc="3827607177" ref="index:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball:register:executive-board"/>
-    <file name="jquery.musemenu.js" crc="3957776250" ref="index:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball:register:executive-board"/>
-    <file name="jquery.scrolleffects.js" crc="3860644955" ref="index:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball:register:executive-board"/>
-    <file name="form_check.php" crc="277267350" ref="index:register"/>
-    <file name="form_throttle.php" crc="3908387251" ref="index:register"/>
-    <file name="form_process.php" crc="24249335" ref="index:register"/>
-    <file name="form-u809.php" crc="327408978" ref="index"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:sports:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball:register:executive-board"/>
-    <file name="form-u5340.php" crc="339273201" ref="register"/>
-    <file name="musewpdisclosure.js" crc="3993616448" ref="register:executive-board"/>
+    <file name="jquery-1.8.3.min.js" crc="196614522" ref="phone>index:phone>about:phone>our-people:phone>areas-of-practice:phone>contact:phone>article-details:index:contact:portfolio:work-experience:thanks"/>
+    <file name="museutils.js" crc="275725342" ref="phone>index:phone>about:phone>our-people:phone>areas-of-practice:phone>contact:phone>article-details:index:contact:portfolio:work-experience:thanks"/>
+    <file name="pie.js" crc="3827607177" ref="phone>index:phone>about:phone>our-people:index:portfolio"/>
+    <file name="webpro.js" crc="3883484123" ref="phone>index:phone>about:phone>our-people:phone>areas-of-practice:phone>contact:phone>article-details:index:contact:portfolio"/>
+    <file name="musewpdisclosure.js" crc="404074387" ref="phone>index:phone>about:phone>our-people:phone>areas-of-practice:phone>contact:phone>article-details"/>
+    <file name="jquery.watch.js" crc="3999102769" ref="phone>index:phone>about:phone>our-people:phone>areas-of-practice:phone>contact:phone>article-details:index:contact:portfolio:work-experience:thanks"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="185257658" ref="phone>index:phone>about:index:contact:portfolio:work-experience:thanks"/>
+    <file name="jquery.scrolleffects.js" crc="206645848" ref="phone>index"/>
+    <file name="musewpslideshow.js" crc="360574455" ref="phone>about:index:portfolio"/>
+    <file name="jquery.museoverlay.js" crc="342093292" ref="phone>about:index:portfolio"/>
+    <file name="touchswipe.js" crc="4218319045" ref="phone>about:index:portfolio"/>
+    <file name="form_check.php" crc="3932029206" ref="phone>contact:contact"/>
+    <file name="form_throttle.php" crc="314685628" ref="phone>contact:contact"/>
+    <file name="form_process.php" crc="401030677" ref="phone>contact:contact"/>
+    <file name="form-u4787.php" crc="232288288" ref="phone>contact"/>
+    <file name="museredirect.js" crc="3899419633" ref="index:contact"/>
+    <file name="form-u1225.php" crc="4112774817" ref="contact"/>
   </folder>
   <folder name="images">
-    <file name="placeholder.jpg" crc="4260709404" seo="true" ref="index:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball"/>
-    <file name="blank.gif" crc="4208392903" ref="index:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball:register:executive-board"/>
-    <file name="loading.gif" crc="3815509949" ref="index"/>
-    <file name="pasted image 640x231.jpg" crc="4020136759" seo="true" ref="index:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball:register:executive-board"/>
-    <file name="usaoa1.png" crc="3908655038" seo="true" ref="index:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball:register:executive-board"/>
-    <file name="pasted image 1000x788.jpg" crc="504939877" seo="true" ref="index"/>
-    <file name="arrowmenudown.gif" crc="213132104" ref="index:boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball:register:executive-board"/>
-    <file name="u810-17.png" crc="408780040" ref="index"/>
-    <file name="u810-17-r.png" crc="349403213" ref="index"/>
-    <file name="u810-17-m.png" crc="349403213" ref="index"/>
-    <file name="u810-17-fs.png" crc="346514842" ref="index"/>
-    <file name="u5547-4-a.png" crc="3860327194" ref="index"/>
-    <file name="u5492.png" crc="100391239" ref="index"/>
-    <file name="u5492-a.png" crc="34521023" ref="index"/>
-    <file name="u5499-4.png" crc="242804529" ref="index"/>
-    <file name="u5542-4.png" crc="3991368307" ref="index"/>
-    <file name="u5530-4.png" crc="3986493878" ref="index"/>
-    <file name="u5514-4.png" crc="274621240" ref="index"/>
-    <file name="u5507-4.png" crc="313778953" ref="index"/>
-    <file name="u5534-4.png" crc="144973785" ref="index"/>
-    <file name="u5520-4.png" crc="195434835" ref="index"/>
-    <file name="u5563.png" crc="3853411947" ref="index"/>
-    <file name="u5563-a.png" crc="4044028476" ref="index"/>
-    <file name="u5556.png" crc="35303376" ref="index"/>
-    <file name="u5556-a.png" crc="157991570" ref="index"/>
-    <file name="babmonashoresfootballv-crop-u4393.jpg" crc="465821997" ref="index"/>
-    <file name="gh_vball2_1-crop-u4451.jpg" crc="3784029031" ref="index"/>
-    <file name="-69bf9ccb65b1229e (1).jpg" crc="3776497410" seo="true" ref="index"/>
-    <file name="img_6012-600x338.jpg" crc="3789199090" seo="true" ref="index"/>
-    <file name="babmonashoresfootballv-crop-u4384.jpg" crc="140790066" ref="index"/>
-    <file name="gh_vball2_1-crop-u4454.jpg" crc="3846103391" ref="index"/>
-    <file name="-69bf9ccb65b1229e (1)-crop-u4473.jpg" crc="3823095545" ref="index"/>
-    <file name="img_6012-600x338-crop-u4440.jpg" crc="499457277" ref="index"/>
-    <file name="pasted image 1680x1050.jpg" crc="3832996191" seo="true" ref="index:executive-board"/>
-    <file name="3177_1080334049498_4380347_n.jpg" crc="91508396" ref="boys-basketball:girls-basketball:executive-board"/>
-    <file name="headshot2-u4704-fr.png" crc="4272424860" ref="boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball:executive-board"/>
-    <file name="twitter.png" crc="60231773" seo="true" ref="boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball:executive-board"/>
-    <file name="u5478.png" crc="368376037" ref="boys-basketball"/>
-    <file name="u5478-a.png" crc="3860327194" ref="boys-basketball"/>
-    <file name="u5458.png" crc="100391239" ref="boys-basketball"/>
-    <file name="u5458-a.png" crc="34521023" ref="boys-basketball"/>
-    <file name="u5410-4-a.png" crc="242804529" ref="boys-basketball"/>
-    <file name="u5415-4.png" crc="3991368307" ref="boys-basketball"/>
-    <file name="u5445-4.png" crc="3986493878" ref="boys-basketball"/>
-    <file name="u5437-4.png" crc="274621240" ref="boys-basketball"/>
-    <file name="u5424-4.png" crc="313778953" ref="boys-basketball"/>
-    <file name="u5450-4.png" crc="144973785" ref="boys-basketball"/>
-    <file name="u5433-4.png" crc="195434835" ref="boys-basketball"/>
-    <file name="u5465.png" crc="3853411947" ref="boys-basketball"/>
-    <file name="u5465-a.png" crc="4044028476" ref="boys-basketball"/>
-    <file name="u5471.png" crc="35303376" ref="boys-basketball"/>
-    <file name="u5471-a.png" crc="157991570" ref="boys-basketball"/>
-    <file name="placeholder-u2027-fr.jpg" crc="315234173" ref="boys-basketball:girls-basketball:wrestling:football:softball:baseball:volleyball"/>
-    <file name="rpbasketball.jpg" crc="491649970" seo="true" ref="boys-basketball"/>
-    <file name="u5629.png" crc="368376037" ref="girls-basketball"/>
-    <file name="u5629-a.png" crc="3860327194" ref="girls-basketball"/>
-    <file name="u5574.png" crc="100391239" ref="girls-basketball"/>
-    <file name="u5574-a.png" crc="34521023" ref="girls-basketball"/>
-    <file name="u5581-4.png" crc="242804529" ref="girls-basketball"/>
-    <file name="u5624-4-a.png" crc="3991368307" ref="girls-basketball"/>
-    <file name="u5612-4.png" crc="3986493878" ref="girls-basketball"/>
-    <file name="u5596-4.png" crc="274621240" ref="girls-basketball"/>
-    <file name="u5589-4.png" crc="313778953" ref="girls-basketball"/>
-    <file name="u5616-4.png" crc="144973785" ref="girls-basketball"/>
-    <file name="u5602-4.png" crc="195434835" ref="girls-basketball"/>
-    <file name="u5645.png" crc="3853411947" ref="girls-basketball"/>
-    <file name="u5645-a.png" crc="4044028476" ref="girls-basketball"/>
-    <file name="u5638.png" crc="35303376" ref="girls-basketball"/>
-    <file name="u5638-a.png" crc="157991570" ref="girls-basketball"/>
-    <file name="oakridge-megan-larabee-2014.jpg" crc="4129261263" seo="true" ref="girls-basketball"/>
-    <file name="u6024.png" crc="3807575452" ref="wrestling"/>
-    <file name="u6024-a.png" crc="3860327194" ref="wrestling"/>
-    <file name="u5969.png" crc="411912516" ref="wrestling"/>
-    <file name="u5969-a.png" crc="34521023" ref="wrestling"/>
-    <file name="u5976-4.png" crc="242804529" ref="wrestling"/>
-    <file name="u6019-4.png" crc="3991368307" ref="wrestling"/>
-    <file name="u6007-4.png" crc="3986493878" ref="wrestling"/>
-    <file name="u5991-4.png" crc="274621240" ref="wrestling"/>
-    <file name="u5984-4.png" crc="313778953" ref="wrestling"/>
-    <file name="u6011-4.png" crc="144973785" ref="wrestling"/>
-    <file name="u5997-4-a.png" crc="195434835" ref="wrestling"/>
-    <file name="u6040.png" crc="4153634231" ref="wrestling"/>
-    <file name="u6040-a.png" crc="4044028476" ref="wrestling"/>
-    <file name="u6033.png" crc="4197644494" ref="wrestling"/>
-    <file name="u6033-a.png" crc="157991570" ref="wrestling"/>
-    <file name="pasted image 1024x959.jpg" crc="476434324" seo="true" ref="wrestling"/>
-    <file name="u5708.png" crc="368376037" ref="football"/>
-    <file name="u5708-a.png" crc="3860327194" ref="football"/>
-    <file name="u5653.png" crc="100391239" ref="football"/>
-    <file name="u5653-a.png" crc="34521023" ref="football"/>
-    <file name="u5660-4.png" crc="242804529" ref="football"/>
-    <file name="u5703-4.png" crc="3991368307" ref="football"/>
-    <file name="u5691-4-a.png" crc="3986493878" ref="football"/>
-    <file name="u5675-4.png" crc="274621240" ref="football"/>
-    <file name="u5668-4.png" crc="313778953" ref="football"/>
-    <file name="u5695-4.png" crc="144973785" ref="football"/>
-    <file name="u5681-4.png" crc="195434835" ref="football"/>
-    <file name="u5724.png" crc="3853411947" ref="football"/>
-    <file name="u5724-a.png" crc="4044028476" ref="football"/>
-    <file name="u5717.png" crc="35303376" ref="football"/>
-    <file name="u5717-a.png" crc="157991570" ref="football"/>
-    <file name="pasted image 3000x2000.jpg" crc="421345385" seo="true" ref="football"/>
-    <file name="u5866.png" crc="368376037" ref="softball"/>
-    <file name="u5866-a.png" crc="3860327194" ref="softball"/>
-    <file name="u5811.png" crc="100391239" ref="softball"/>
-    <file name="u5811-a.png" crc="34521023" ref="softball"/>
-    <file name="u5818-4.png" crc="242804529" ref="softball"/>
-    <file name="u5861-4.png" crc="3991368307" ref="softball"/>
-    <file name="u5849-4.png" crc="3986493878" ref="softball"/>
-    <file name="u5833-4.png" crc="274621240" ref="softball"/>
-    <file name="u5826-4-a.png" crc="313778953" ref="softball"/>
-    <file name="u5853-4.png" crc="144973785" ref="softball"/>
-    <file name="u5839-4.png" crc="195434835" ref="softball"/>
-    <file name="u5882.png" crc="3853411947" ref="softball"/>
-    <file name="u5882-a.png" crc="4044028476" ref="softball"/>
-    <file name="u5875.png" crc="35303376" ref="softball"/>
-    <file name="u5875-a.png" crc="157991570" ref="softball"/>
-    <file name="pasted image 3376x2152.jpg" crc="82129889" seo="true" ref="softball"/>
-    <file name="u5787.png" crc="368376037" ref="baseball"/>
-    <file name="u5787-a.png" crc="3860327194" ref="baseball"/>
-    <file name="u5732.png" crc="100391239" ref="baseball"/>
-    <file name="u5732-a.png" crc="34521023" ref="baseball"/>
-    <file name="u5739-4.png" crc="242804529" ref="baseball"/>
-    <file name="u5782-4.png" crc="3991368307" ref="baseball"/>
-    <file name="u5770-4.png" crc="3986493878" ref="baseball"/>
-    <file name="u5754-4-a.png" crc="274621240" ref="baseball"/>
-    <file name="u5747-4.png" crc="313778953" ref="baseball"/>
-    <file name="u5774-4.png" crc="144973785" ref="baseball"/>
-    <file name="u5760-4.png" crc="195434835" ref="baseball"/>
-    <file name="u5803.png" crc="3853411947" ref="baseball"/>
-    <file name="u5803-a.png" crc="4044028476" ref="baseball"/>
-    <file name="u5796.png" crc="35303376" ref="baseball"/>
-    <file name="u5796-a.png" crc="157991570" ref="baseball"/>
-    <file name="pasted image 1024x635.jpg" crc="156553665" seo="true" ref="baseball"/>
-    <file name="u5945.png" crc="368376037" ref="volleyball"/>
-    <file name="u5945-a.png" crc="3860327194" ref="volleyball"/>
-    <file name="u5890.png" crc="100391239" ref="volleyball"/>
-    <file name="u5890-a.png" crc="34521023" ref="volleyball"/>
-    <file name="u5897-4.png" crc="242804529" ref="volleyball"/>
-    <file name="u5940-4.png" crc="3991368307" ref="volleyball"/>
-    <file name="u5928-4.png" crc="3986493878" ref="volleyball"/>
-    <file name="u5912-4.png" crc="274621240" ref="volleyball"/>
-    <file name="u5905-4.png" crc="313778953" ref="volleyball"/>
-    <file name="u5932-4-a.png" crc="144973785" ref="volleyball"/>
-    <file name="u5918-4.png" crc="195434835" ref="volleyball"/>
-    <file name="u5961.png" crc="3853411947" ref="volleyball"/>
-    <file name="u5961-a.png" crc="4044028476" ref="volleyball"/>
-    <file name="u5954.png" crc="35303376" ref="volleyball"/>
-    <file name="u5954-a.png" crc="157991570" ref="volleyball"/>
-    <file name="pasted image 655x440.jpg" crc="4099048338" seo="true" ref="volleyball"/>
-    <file name="u5353-17.png" crc="426238338" ref="register"/>
-    <file name="u5353-17-r.png" crc="229203717" ref="register"/>
-    <file name="u5353-17-m.png" crc="229203717" ref="register"/>
-    <file name="u5353-17-fs.png" crc="305910842" ref="register"/>
-    <file name="u6182.png" crc="3807575452" ref="register"/>
-    <file name="u6182-a.png" crc="3860327194" ref="register"/>
-    <file name="u6127.png" crc="411912516" ref="register"/>
-    <file name="u6127-a.png" crc="34521023" ref="register"/>
-    <file name="u6134-4.png" crc="242804529" ref="register"/>
-    <file name="u6177-4.png" crc="3991368307" ref="register"/>
-    <file name="u6165-4.png" crc="3986493878" ref="register"/>
-    <file name="u6149-4.png" crc="274621240" ref="register"/>
-    <file name="u6142-4.png" crc="313778953" ref="register"/>
-    <file name="u6169-4.png" crc="144973785" ref="register"/>
-    <file name="u6155-4.png" crc="195434835" ref="register"/>
-    <file name="u6198.png" crc="4153634231" ref="register"/>
-    <file name="u6198-a.png" crc="4044028476" ref="register"/>
-    <file name="u6191-4-a.png" crc="157991570" ref="register"/>
-    <file name="pasted image 1680x10501220x763.jpg" crc="501536749" seo="true" ref="register"/>
-    <file name="u4072-4.png" crc="3919185192" ref="register"/>
-    <file name="u6103.png" crc="3807575452" ref="executive-board"/>
-    <file name="u6103-a.png" crc="3860327194" ref="executive-board"/>
-    <file name="u6048.png" crc="411912516" ref="executive-board"/>
-    <file name="u6048-a.png" crc="34521023" ref="executive-board"/>
-    <file name="u6055-4.png" crc="242804529" ref="executive-board"/>
-    <file name="u6098-4.png" crc="3991368307" ref="executive-board"/>
-    <file name="u6086-4.png" crc="3986493878" ref="executive-board"/>
-    <file name="u6070-4.png" crc="274621240" ref="executive-board"/>
-    <file name="u6063-4.png" crc="313778953" ref="executive-board"/>
-    <file name="u6090-4.png" crc="144973785" ref="executive-board"/>
-    <file name="u6076-4.png" crc="195434835" ref="executive-board"/>
-    <file name="u6119-4-a.png" crc="4044028476" ref="executive-board"/>
-    <file name="u6112.png" crc="4197644494" ref="executive-board"/>
-    <file name="u6112-a.png" crc="157991570" ref="executive-board"/>
+    <file name="suit.jpg" crc="4034663754" ref="phone>index"/>
+    <file name="grid_overlay.png" crc="87407182" ref="phone>index"/>
+    <file name="grid_overlay_2x.png" crc="349792089" ref="phone>index"/>
+    <file name="arrow-u4524.png" crc="3924857123" ref="phone>index"/>
+    <file name="arrow-u4524_2x.png" crc="4043618355" ref="phone>index"/>
+    <file name="team4-crop-u4527.png" crc="335277039" ref="phone>index"/>
+    <file name="team4-crop-u4527_2x.png" crc="326582194" ref="phone>index"/>
+    <file name="hex_dark-u4537-fr.png" crc="3902808300" ref="phone>index:index"/>
+    <file name="hex_dark-u4537-fr_2x.png" crc="286989556" ref="phone>index:index"/>
+    <file name="arrow2_sprite-ieu4539-fr.png" crc="177126443" ref="phone>index:index"/>
+    <file name="arrow2_sprite.png" crc="421456310" ref="phone>index:index:thanks"/>
+    <file name="arrow2_sprite-ieu4539-fr2.png" crc="271641079" ref="phone>index:index"/>
+    <file name="arrow2_sprite_2x.png" crc="3835106801" ref="phone>index:index:thanks"/>
+    <file name="arrow2_sprite_light-u4539-fr.png" crc="4076002567" ref="phone>index:index"/>
+    <file name="arrow2_sprite_light-u4539-fr_2x.png" crc="501412886" ref="phone>index:index"/>
+    <file name="hex_dark-u4540-fr.png" crc="350688922" ref="phone>index:index"/>
+    <file name="hex_dark-u4540-fr_2x.png" crc="4275961788" ref="phone>index:index"/>
+    <file name="arrow2_sprite_drk.png" crc="3820673742" ref="phone>index:index"/>
+    <file name="arrow2_sprite_drk_2x.png" crc="472561649" ref="phone>index:index"/>
+    <file name="block_sprite.svg" crc="4152107199" ref="phone>index:phone>about:index"/>
+    <file name="block_sprite_poster_u1676.png" crc="452515103" ref="phone>index:phone>about:index"/>
+    <file name="block_sprite_reverse.svg" crc="3782325491" ref="phone>index"/>
+    <file name="block_sprite_reverse_poster_u1670.png" crc="119436455" ref="phone>index"/>
+    <file name="about_blk-crop-u4614.png" crc="195480044" ref="phone>about"/>
+    <file name="about_blk-crop-u4614_2x.png" crc="4247933958" ref="phone>about"/>
+    <file name="nodes_thin.svg" crc="330959908" ref="phone>about"/>
+    <file name="nodes_thin_poster_u2743.png" crc="4019920106" ref="phone>about"/>
+    <file name="arrow_r.svg" crc="3918262342" ref="phone>about"/>
+    <file name="arrow_r_poster_u1191.png" crc="313326517" ref="phone>about"/>
+    <file name="arrow_l.svg" crc="3907519036" ref="phone>about"/>
+    <file name="arrow_l_poster_u1201.png" crc="3972221097" ref="phone>about"/>
+    <file name="sal-u4675-fr.jpg" crc="4286698799" ref="phone>our-people"/>
+    <file name="sal-u4675-fr_2x.jpg" crc="3994231553" ref="phone>our-people"/>
+    <file name="janet-u4682-fr.jpg" crc="4106962969" ref="phone>our-people"/>
+    <file name="janet-u4682-fr_2x.jpg" crc="4280189384" ref="phone>our-people"/>
+    <file name="michael-u4688-fr.jpg" crc="3766853442" ref="phone>our-people"/>
+    <file name="michael-u4688-fr_2x.jpg" crc="247803748" ref="phone>our-people"/>
+    <file name="area1-u4730.png" crc="204826142" ref="phone>areas-of-practice"/>
+    <file name="area1-u4730-r.png" crc="204826142" ref="phone>areas-of-practice"/>
+    <file name="area1-u4730-m.png" crc="204826142" ref="phone>areas-of-practice"/>
+    <file name="area1-u4730_2x.png" crc="3765144660" ref="phone>areas-of-practice"/>
+    <file name="area1-u4730-r_2x.png" crc="3765144660" ref="phone>areas-of-practice"/>
+    <file name="area1-u4730-m_2x.png" crc="3765144660" ref="phone>areas-of-practice"/>
+    <file name="area2-u4733.png" crc="29704755" ref="phone>areas-of-practice"/>
+    <file name="area2-u4733-r.png" crc="29704755" ref="phone>areas-of-practice"/>
+    <file name="area2-u4733-m.png" crc="29704755" ref="phone>areas-of-practice"/>
+    <file name="area2-u4733_2x.png" crc="3959462973" ref="phone>areas-of-practice"/>
+    <file name="area2-u4733-r_2x.png" crc="3959462973" ref="phone>areas-of-practice"/>
+    <file name="area2-u4733-m_2x.png" crc="3959462973" ref="phone>areas-of-practice"/>
+    <file name="area4-u4731.png" crc="4291856665" ref="phone>areas-of-practice"/>
+    <file name="area4-u4731-r.png" crc="4291856665" ref="phone>areas-of-practice"/>
+    <file name="area4-u4731-m.png" crc="4291856665" ref="phone>areas-of-practice"/>
+    <file name="area4-u4731_2x.png" crc="4284705618" ref="phone>areas-of-practice"/>
+    <file name="area4-u4731-r_2x.png" crc="4284705618" ref="phone>areas-of-practice"/>
+    <file name="area4-u4731-m_2x.png" crc="4284705618" ref="phone>areas-of-practice"/>
+    <file name="areas3-u4732.png" crc="482472772" ref="phone>areas-of-practice"/>
+    <file name="areas3-u4732-r.png" crc="482472772" ref="phone>areas-of-practice"/>
+    <file name="areas3-u4732-m.png" crc="482472772" ref="phone>areas-of-practice"/>
+    <file name="areas3-u4732_2x.png" crc="222642395" ref="phone>areas-of-practice"/>
+    <file name="areas3-u4732-r_2x.png" crc="222642395" ref="phone>areas-of-practice"/>
+    <file name="areas3-u4732-m_2x.png" crc="222642395" ref="phone>areas-of-practice"/>
+    <file name="contact_bg-crop-u4784.png" crc="3975398742" ref="phone>contact"/>
+    <file name="u4788-25.png" crc="532417283" ref="phone>contact"/>
+    <file name="u4788-25-r.png" crc="389914269" ref="phone>contact"/>
+    <file name="u4788-25-m.png" crc="389914269" ref="phone>contact"/>
+    <file name="u4788-25-fs.png" crc="532417283" ref="phone>contact"/>
+    <file name="u4788-25_2x.png" crc="385003940" ref="phone>contact"/>
+    <file name="u4788-25-r_2x.png" crc="404426815" ref="phone>contact"/>
+    <file name="u4788-25-m_2x.png" crc="404426815" ref="phone>contact"/>
+    <file name="u4788-25-fs_2x.png" crc="385003940" ref="phone>contact"/>
+    <file name="header1.jpg" crc="392578414" seo="true" ref="index"/>
+    <file name="grid_overlay-u1264-fr.png" crc="107382248" ref="index"/>
+    <file name="grid_overlay-u1264-fr_2x.png" crc="4079889647" ref="index"/>
+    <file name="u1853.png" crc="3809739931" ref="index"/>
+    <file name="u1853-r.png" crc="4067530614" ref="index"/>
+    <file name="u1853_2x.png" crc="378184563" ref="index"/>
+    <file name="u1853-r_2x.png" crc="245701710" ref="index"/>
+    <file name="wood.jpg" crc="3771075414" seo="true" ref="index"/>
+    <file name="startup605x404.jpg" crc="478378161" seo="true" ref="index"/>
+    <file name="work.jpg" crc="378748755" seo="true" ref="index"/>
+    <file name="hex-u1943-fr.png" crc="342082994" ref="index"/>
+    <file name="hex-ieu1943-fr.png" crc="66080481" ref="index"/>
+    <file name="triangle-u1943-fr.png" crc="199160869" ref="index"/>
+    <file name="triangle-u1943-a-fr.png" crc="4121337759" ref="index"/>
+    <file name="network_ico.png" crc="286249380" seo="true" ref="index"/>
+    <file name="network_ico_2x.png" crc="140698609" seo="true" ref="index"/>
+    <file name="social_fb_sprite.svg" crc="4211001042" ref="index:portfolio"/>
+    <file name="social_fb_sprite_poster_u379.png" crc="4203595652" ref="index:portfolio"/>
+    <file name="social_twitter_sprite.svg" crc="171179151" ref="index"/>
+    <file name="social_twitter_sprite_poster_u387.png" crc="304813209" ref="index"/>
+    <file name="social_insta_sprite.svg" crc="4277697114" ref="index"/>
+    <file name="social_insta_sprite_poster_u394.png" crc="11504140" ref="index"/>
+    <file name="wall.jpg" crc="4017210859" ref="index"/>
+    <file name="wall_2x.jpg" crc="3872439789" ref="index"/>
+    <file name="tab_blue.svg" crc="4200867707" ref="index"/>
+    <file name="tab_blue_poster_u1761.png" crc="434566254" ref="index"/>
+    <file name="tab.svg" crc="4237993555" ref="index"/>
+    <file name="tab_poster_u2471.png" crc="4102879383" ref="index"/>
+    <file name="arrow_sprite.svg" crc="4262019863" ref="index"/>
+    <file name="arrow_sprite_poster_u318.png" crc="21436062" ref="index"/>
+    <file name="half_l.svg" crc="9770243" ref="index"/>
+    <file name="half_l_poster_u2676.png" crc="4001403998" ref="index"/>
+    <file name="half_r.svg" crc="109573887" ref="index"/>
+    <file name="half_r_poster_u2683.png" crc="3888375894" ref="index"/>
+    <file name="contact_bg.jpg" crc="4092732719" ref="contact:thanks"/>
+    <file name="coffee.jpg" crc="255886031" seo="true" ref="contact:thanks"/>
+    <file name="pixel.png" crc="124650358" ref="contact"/>
+    <file name="pixel_2x.png" crc="3911926333" ref="contact"/>
+    <file name="map-u1253.png" crc="356871665" ref="contact"/>
+    <file name="map-u1253_2x.png" crc="3851800823" ref="contact"/>
+    <file name="u1233-25.png" crc="4046845797" ref="contact"/>
+    <file name="u1233-25-r.png" crc="4046845797" ref="contact"/>
+    <file name="u1233-25-m.png" crc="4046845797" ref="contact"/>
+    <file name="u1233-25-fs.png" crc="4046845797" ref="contact"/>
+    <file name="u1233-25_2x.png" crc="424653214" ref="contact"/>
+    <file name="u1233-25-r_2x.png" crc="424653214" ref="contact"/>
+    <file name="u1233-25-m_2x.png" crc="424653214" ref="contact"/>
+    <file name="u1233-25-fs_2x.png" crc="424653214" ref="contact"/>
+    <file name="email-u1251.png" crc="4206214671" ref="contact"/>
+    <file name="email-u1251_2x.png" crc="115208074" ref="contact"/>
+    <file name="chat-u1255.png" crc="101585862" ref="contact"/>
+    <file name="chat-u1255_2x.png" crc="47265038" ref="contact"/>
+    <file name="tab_article_side.svg" crc="192418337" ref="portfolio"/>
+    <file name="tab_article_side_poster_u4092.png" crc="73348242" ref="portfolio"/>
+    <file name="startup.jpg" crc="90781653" seo="true" ref="portfolio"/>
+    <file name="wood450x407.jpg" crc="147656009" seo="true" ref="portfolio"/>
+    <file name="wood_2x.jpg" crc="3771075414" seo="true" ref="portfolio"/>
+    <file name="tab_news2.svg" crc="4069590813" ref="portfolio"/>
+    <file name="tab_news2_poster_u4129.png" crc="3854199019" ref="portfolio"/>
+    <file name="screen shot 2016-02-26 at 81425 pm.png" crc="194203939" seo="true" ref="portfolio"/>
+    <file name="blank.gif" crc="4208392903" ref="portfolio"/>
+    <file name="screen shot 2016-02-26 at 81016 pm.png" crc="9900733" seo="true" ref="portfolio"/>
+    <file name="screen shot 2016-02-26 at 81006 pm.png" crc="3903546822" seo="true" ref="portfolio"/>
+    <file name="screen shot 2016-02-26 at 80928 pm.png" crc="3954261439" seo="true" ref="portfolio"/>
+    <file name="screen shot 2016-02-26 at 80901 pm.png" crc="89777550" seo="true" ref="portfolio"/>
+    <file name="screen shot 2016-02-26 at 81328 pm.png" crc="113843280" seo="true" ref="portfolio"/>
+    <file name="screen shot 2016-02-26 at 81328 pm_2x.png" crc="3924194192" seo="true" ref="portfolio"/>
+    <file name="loading.gif" crc="3815509949" ref="portfolio"/>
+    <file name="screen shot 2016-02-26 at 81803 pm.png" crc="3886892770" seo="true" ref="portfolio"/>
+    <file name="screen shot 2016-02-26 at 81751 pm.png" crc="37454865" seo="true" ref="portfolio"/>
+    <file name="screen shot 2016-02-26 at 81743 pm.png" crc="3838212142" seo="true" ref="portfolio"/>
+    <file name="screen shot 2016-02-26 at 81733 pm.png" crc="256497817" seo="true" ref="portfolio"/>
+    <file name="screen shot 2016-02-26 at 81718 pm.png" crc="179425862" seo="true" ref="portfolio"/>
+    <file name="dog.jpg" crc="290747610" seo="true" ref="portfolio"/>
+    <file name="screen shot 2016-02-26 at 80852 am.png" crc="4050658698" seo="true" ref="portfolio"/>
+    <file name="savethedate.jpg" crc="3804924485" seo="true" ref="portfolio"/>
+    <file name="savethedate_2x.jpg" crc="18141763" seo="true" ref="portfolio"/>
+    <file name="parishmission.jpg" crc="3897575522" seo="true" ref="portfolio"/>
+    <file name="parishmission_2x.jpg" crc="4114659573" seo="true" ref="portfolio"/>
+    <file name="bg2.png" crc="4131846701" ref="work-experience"/>
+    <file name="area1.jpg" crc="4204503759" ref="work-experience"/>
+    <file name="area1_2x.jpg" crc="298731009" ref="work-experience"/>
+    <file name="code.jpg" crc="331230178" ref="work-experience"/>
+    <file name="code_2x.jpg" crc="3799762310" ref="work-experience"/>
+    <file name="girlatdesk.jpg" crc="265993851" ref="work-experience"/>
+    <file name="girlatdesk_2x.jpg" crc="4125946054" ref="work-experience"/>
+    <file name="socialmedia.jpg" crc="3947313277" ref="work-experience"/>
+    <file name="socialmedia_2x.jpg" crc="4178966012" ref="work-experience"/>
+    <file name="photo.jpg" crc="12885086" ref="work-experience"/>
+    <file name="photo_2x.jpg" crc="7216056" ref="work-experience"/>
+    <file name="hex_dark-u5120-fr.png" crc="424419254" ref="thanks"/>
+    <file name="arrow2_sprite-ieu5122-fr.png" crc="500262522" ref="thanks"/>
+    <file name="arrow2_sprite-ieu5122-fr2.png" crc="135724758" ref="thanks"/>
+    <file name="arrow2_sprite_light.png" crc="505869873" ref="thanks"/>
+    <file name="arrow2_sprite_light_2x.png" crc="3804366327" ref="thanks"/>
   </folder>
-  <file name="index.html" crc="3939576559" seo="true" mt="1445029626986" redirect="true"/>
-  <file name="sports.html" crc="3857469420" seo="true" mt="1443627875931" redirect="false"/>
-  <file name="boys-basketball.html" crc="3834914079" seo="true" mt="1445029644190" redirect="true"/>
-  <file name="girls-basketball.html" crc="524694500" seo="true" mt="1445029644191" redirect="true"/>
-  <file name="wrestling.html" crc="463276030" seo="true" mt="1445029650053" redirect="true"/>
-  <file name="football.html" crc="3805058329" seo="true" mt="1445029627141" redirect="true"/>
-  <file name="softball.html" crc="4049394401" seo="true" mt="1445029627145" redirect="true"/>
-  <file name="baseball.html" crc="455843443" seo="true" mt="1445029627143" redirect="true"/>
-  <file name="volleyball.html" crc="110081009" seo="true" mt="1445029627139" redirect="true"/>
-  <file name="register.html" crc="3925165675" seo="true" mt="1445029655270" redirect="true"/>
-  <file name="executive-board.html" crc="186416278" seo="true" mt="1445029657435" redirect="true"/>
+  <folder name="phone">
+    <folder name="css">
+      <file name="master_a-master.css" crc="326699742" ref="phone>index:phone>areas-of-practice:phone>article-details:phone>our-people:phone>contact:phone>about"/>
+      <file name="index.css" crc="4012977701" ref="phone>index"/>
+      <file name="areas-of-practice.css" crc="3761752721" ref="phone>areas-of-practice"/>
+      <file name="article-details.css" crc="127490771" ref="phone>article-details"/>
+      <file name="our-people.css" crc="230582953" ref="phone>our-people"/>
+      <file name="contact.css" crc="388293940" ref="phone>contact"/>
+      <file name="about.css" crc="4153424857" ref="phone>about"/>
+    </folder>
+    <file name="index.html" crc="450748929" seo="true" mt="1456540633501" redirect="true"/>
+    <file name="about.html" crc="4287212810" seo="true" mt="1456540633501" redirect="true"/>
+    <file name="our-people.html" crc="180462154" seo="true" mt="1456540633501" redirect="true"/>
+    <file name="areas-of-practice.html" crc="274318573" seo="true" mt="1456540633501" redirect="true"/>
+    <file name="contact.html" crc="4229329136" seo="true" mt="1456540633501" redirect="true"/>
+    <file name="article-details.html" crc="311700844" seo="true" mt="1456540633501" redirect="true"/>
+  </folder>
+  <file name="index.html" crc="3801578645" seo="true" mt="1456541342677" redirect="true"/>
+  <file name="contact.html" crc="3866431166" seo="true" mt="1456540633490" redirect="true"/>
+  <file name="portfolio.html" crc="255572464" seo="true" mt="1456541161267" redirect="true"/>
+  <file name="work-experience.html" crc="3882035763" seo="true" mt="1456541343219" redirect="true"/>
+  <file name="thanks.html" crc="503425895" seo="true" mt="1456540633505" redirect="true"/>
 </manifest>
