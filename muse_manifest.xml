@@ -1,106 +1,32 @@
-<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="grevelem.github.io" resolutions="1x,2x" timestamp="1456541365292">
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="grevelem.github.io" resolutions="1x,2x" timestamp="1456542977156">
   <folder name="css">
     <file name="site_global.css" crc="3996981612"/>
-    <file name="master_master-light.css" crc="503765301" ref="work-experience:thanks:contact:portfolio:index"/>
-    <file name="work-experience.css" crc="173899361" ref="work-experience"/>
-    <file name="thanks.css" crc="138105889" ref="thanks"/>
+    <file name="master_master-light.css" crc="503765301" ref="contact:portfolio:work-experience:index:thanks"/>
     <file name="contact.css" crc="325179745" ref="contact"/>
     <file name="portfolio.css" crc="150159292" ref="portfolio"/>
-    <file name="index.css" crc="3851711145" ref="index"/>
+    <file name="work-experience.css" crc="173899361" ref="work-experience"/>
+    <file name="index.css" crc="126315257" ref="index"/>
+    <file name="thanks.css" crc="138105889" ref="thanks"/>
   </folder>
   <folder name="assets">
     <file name="emily-grevel-resume-spring-2016.pdf" crc="3784284962" seo="true" mt="1456414010000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="196614522" ref="phone>index:phone>about:phone>our-people:phone>areas-of-practice:phone>contact:phone>article-details:index:contact:portfolio:work-experience:thanks"/>
-    <file name="museutils.js" crc="275725342" ref="phone>index:phone>about:phone>our-people:phone>areas-of-practice:phone>contact:phone>article-details:index:contact:portfolio:work-experience:thanks"/>
-    <file name="pie.js" crc="3827607177" ref="phone>index:phone>about:phone>our-people:index:portfolio"/>
-    <file name="webpro.js" crc="3883484123" ref="phone>index:phone>about:phone>our-people:phone>areas-of-practice:phone>contact:phone>article-details:index:contact:portfolio"/>
-    <file name="musewpdisclosure.js" crc="404074387" ref="phone>index:phone>about:phone>our-people:phone>areas-of-practice:phone>contact:phone>article-details"/>
-    <file name="jquery.watch.js" crc="3999102769" ref="phone>index:phone>about:phone>our-people:phone>areas-of-practice:phone>contact:phone>article-details:index:contact:portfolio:work-experience:thanks"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="185257658" ref="phone>index:phone>about:index:contact:portfolio:work-experience:thanks"/>
-    <file name="jquery.scrolleffects.js" crc="206645848" ref="phone>index"/>
-    <file name="musewpslideshow.js" crc="360574455" ref="phone>about:index:portfolio"/>
-    <file name="jquery.museoverlay.js" crc="342093292" ref="phone>about:index:portfolio"/>
-    <file name="touchswipe.js" crc="4218319045" ref="phone>about:index:portfolio"/>
-    <file name="form_check.php" crc="3932029206" ref="phone>contact:contact"/>
-    <file name="form_throttle.php" crc="314685628" ref="phone>contact:contact"/>
-    <file name="form_process.php" crc="401030677" ref="phone>contact:contact"/>
-    <file name="form-u4787.php" crc="232288288" ref="phone>contact"/>
-    <file name="museredirect.js" crc="3899419633" ref="index:contact"/>
+    <file name="jquery-1.8.3.min.js" crc="196614522" ref="index:contact:portfolio:work-experience:thanks"/>
+    <file name="museutils.js" crc="275725342" ref="index:contact:portfolio:work-experience:thanks"/>
+    <file name="jquery.watch.js" crc="3999102769" ref="index:contact:portfolio:work-experience:thanks"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="185257658" ref="index:contact:portfolio:work-experience:thanks"/>
+    <file name="webpro.js" crc="3883484123" ref="index:contact:portfolio"/>
+    <file name="musewpslideshow.js" crc="360574455" ref="index:portfolio"/>
+    <file name="jquery.museoverlay.js" crc="342093292" ref="index:portfolio"/>
+    <file name="touchswipe.js" crc="4218319045" ref="index:portfolio"/>
+    <file name="pie.js" crc="3827607177" ref="index:portfolio"/>
+    <file name="form_check.php" crc="3932029206" ref="contact"/>
+    <file name="form_throttle.php" crc="314685628" ref="contact"/>
+    <file name="form_process.php" crc="401030677" ref="contact"/>
     <file name="form-u1225.php" crc="4112774817" ref="contact"/>
   </folder>
   <folder name="images">
-    <file name="suit.jpg" crc="4034663754" ref="phone>index"/>
-    <file name="grid_overlay.png" crc="87407182" ref="phone>index"/>
-    <file name="grid_overlay_2x.png" crc="349792089" ref="phone>index"/>
-    <file name="arrow-u4524.png" crc="3924857123" ref="phone>index"/>
-    <file name="arrow-u4524_2x.png" crc="4043618355" ref="phone>index"/>
-    <file name="team4-crop-u4527.png" crc="335277039" ref="phone>index"/>
-    <file name="team4-crop-u4527_2x.png" crc="326582194" ref="phone>index"/>
-    <file name="hex_dark-u4537-fr.png" crc="3902808300" ref="phone>index:index"/>
-    <file name="hex_dark-u4537-fr_2x.png" crc="286989556" ref="phone>index:index"/>
-    <file name="arrow2_sprite-ieu4539-fr.png" crc="177126443" ref="phone>index:index"/>
-    <file name="arrow2_sprite.png" crc="421456310" ref="phone>index:index:thanks"/>
-    <file name="arrow2_sprite-ieu4539-fr2.png" crc="271641079" ref="phone>index:index"/>
-    <file name="arrow2_sprite_2x.png" crc="3835106801" ref="phone>index:index:thanks"/>
-    <file name="arrow2_sprite_light-u4539-fr.png" crc="4076002567" ref="phone>index:index"/>
-    <file name="arrow2_sprite_light-u4539-fr_2x.png" crc="501412886" ref="phone>index:index"/>
-    <file name="hex_dark-u4540-fr.png" crc="350688922" ref="phone>index:index"/>
-    <file name="hex_dark-u4540-fr_2x.png" crc="4275961788" ref="phone>index:index"/>
-    <file name="arrow2_sprite_drk.png" crc="3820673742" ref="phone>index:index"/>
-    <file name="arrow2_sprite_drk_2x.png" crc="472561649" ref="phone>index:index"/>
-    <file name="block_sprite.svg" crc="4152107199" ref="phone>index:phone>about:index"/>
-    <file name="block_sprite_poster_u1676.png" crc="452515103" ref="phone>index:phone>about:index"/>
-    <file name="block_sprite_reverse.svg" crc="3782325491" ref="phone>index"/>
-    <file name="block_sprite_reverse_poster_u1670.png" crc="119436455" ref="phone>index"/>
-    <file name="about_blk-crop-u4614.png" crc="195480044" ref="phone>about"/>
-    <file name="about_blk-crop-u4614_2x.png" crc="4247933958" ref="phone>about"/>
-    <file name="nodes_thin.svg" crc="330959908" ref="phone>about"/>
-    <file name="nodes_thin_poster_u2743.png" crc="4019920106" ref="phone>about"/>
-    <file name="arrow_r.svg" crc="3918262342" ref="phone>about"/>
-    <file name="arrow_r_poster_u1191.png" crc="313326517" ref="phone>about"/>
-    <file name="arrow_l.svg" crc="3907519036" ref="phone>about"/>
-    <file name="arrow_l_poster_u1201.png" crc="3972221097" ref="phone>about"/>
-    <file name="sal-u4675-fr.jpg" crc="4286698799" ref="phone>our-people"/>
-    <file name="sal-u4675-fr_2x.jpg" crc="3994231553" ref="phone>our-people"/>
-    <file name="janet-u4682-fr.jpg" crc="4106962969" ref="phone>our-people"/>
-    <file name="janet-u4682-fr_2x.jpg" crc="4280189384" ref="phone>our-people"/>
-    <file name="michael-u4688-fr.jpg" crc="3766853442" ref="phone>our-people"/>
-    <file name="michael-u4688-fr_2x.jpg" crc="247803748" ref="phone>our-people"/>
-    <file name="area1-u4730.png" crc="204826142" ref="phone>areas-of-practice"/>
-    <file name="area1-u4730-r.png" crc="204826142" ref="phone>areas-of-practice"/>
-    <file name="area1-u4730-m.png" crc="204826142" ref="phone>areas-of-practice"/>
-    <file name="area1-u4730_2x.png" crc="3765144660" ref="phone>areas-of-practice"/>
-    <file name="area1-u4730-r_2x.png" crc="3765144660" ref="phone>areas-of-practice"/>
-    <file name="area1-u4730-m_2x.png" crc="3765144660" ref="phone>areas-of-practice"/>
-    <file name="area2-u4733.png" crc="29704755" ref="phone>areas-of-practice"/>
-    <file name="area2-u4733-r.png" crc="29704755" ref="phone>areas-of-practice"/>
-    <file name="area2-u4733-m.png" crc="29704755" ref="phone>areas-of-practice"/>
-    <file name="area2-u4733_2x.png" crc="3959462973" ref="phone>areas-of-practice"/>
-    <file name="area2-u4733-r_2x.png" crc="3959462973" ref="phone>areas-of-practice"/>
-    <file name="area2-u4733-m_2x.png" crc="3959462973" ref="phone>areas-of-practice"/>
-    <file name="area4-u4731.png" crc="4291856665" ref="phone>areas-of-practice"/>
-    <file name="area4-u4731-r.png" crc="4291856665" ref="phone>areas-of-practice"/>
-    <file name="area4-u4731-m.png" crc="4291856665" ref="phone>areas-of-practice"/>
-    <file name="area4-u4731_2x.png" crc="4284705618" ref="phone>areas-of-practice"/>
-    <file name="area4-u4731-r_2x.png" crc="4284705618" ref="phone>areas-of-practice"/>
-    <file name="area4-u4731-m_2x.png" crc="4284705618" ref="phone>areas-of-practice"/>
-    <file name="areas3-u4732.png" crc="482472772" ref="phone>areas-of-practice"/>
-    <file name="areas3-u4732-r.png" crc="482472772" ref="phone>areas-of-practice"/>
-    <file name="areas3-u4732-m.png" crc="482472772" ref="phone>areas-of-practice"/>
-    <file name="areas3-u4732_2x.png" crc="222642395" ref="phone>areas-of-practice"/>
-    <file name="areas3-u4732-r_2x.png" crc="222642395" ref="phone>areas-of-practice"/>
-    <file name="areas3-u4732-m_2x.png" crc="222642395" ref="phone>areas-of-practice"/>
-    <file name="contact_bg-crop-u4784.png" crc="3975398742" ref="phone>contact"/>
-    <file name="u4788-25.png" crc="532417283" ref="phone>contact"/>
-    <file name="u4788-25-r.png" crc="389914269" ref="phone>contact"/>
-    <file name="u4788-25-m.png" crc="389914269" ref="phone>contact"/>
-    <file name="u4788-25-fs.png" crc="532417283" ref="phone>contact"/>
-    <file name="u4788-25_2x.png" crc="385003940" ref="phone>contact"/>
-    <file name="u4788-25-r_2x.png" crc="404426815" ref="phone>contact"/>
-    <file name="u4788-25-m_2x.png" crc="404426815" ref="phone>contact"/>
-    <file name="u4788-25-fs_2x.png" crc="385003940" ref="phone>contact"/>
     <file name="header1.jpg" crc="392578414" seo="true" ref="index"/>
     <file name="grid_overlay-u1264-fr.png" crc="107382248" ref="index"/>
     <file name="grid_overlay-u1264-fr_2x.png" crc="4079889647" ref="index"/>
@@ -127,8 +53,22 @@
     <file name="wall_2x.jpg" crc="3872439789" ref="index"/>
     <file name="tab_blue.svg" crc="4200867707" ref="index"/>
     <file name="tab_blue_poster_u1761.png" crc="434566254" ref="index"/>
+    <file name="hex_dark-u1689-fr.png" crc="3902808300" ref="index"/>
+    <file name="hex_dark-u1689-fr_2x.png" crc="286989556" ref="index"/>
+    <file name="arrow2_sprite-ieu1992-fr.png" crc="177126443" ref="index"/>
+    <file name="arrow2_sprite.png" crc="421456310" ref="index:thanks"/>
+    <file name="arrow2_sprite-ieu1992-fr2.png" crc="271641079" ref="index"/>
+    <file name="arrow2_sprite_2x.png" crc="3835106801" ref="index:thanks"/>
+    <file name="arrow2_sprite_light-u1992-fr.png" crc="4076002567" ref="index"/>
+    <file name="arrow2_sprite_light-u1992-fr_2x.png" crc="501412886" ref="index"/>
     <file name="tab.svg" crc="4237993555" ref="index"/>
     <file name="tab_poster_u2471.png" crc="4102879383" ref="index"/>
+    <file name="hex_dark-u1659-fr.png" crc="350688922" ref="index"/>
+    <file name="hex_dark-u1659-fr_2x.png" crc="4275961788" ref="index"/>
+    <file name="arrow2_sprite_drk.png" crc="3820673742" ref="index"/>
+    <file name="arrow2_sprite_drk_2x.png" crc="472561649" ref="index"/>
+    <file name="block_sprite.svg" crc="4152107199" ref="index"/>
+    <file name="block_sprite_poster_u1676.png" crc="452515103" ref="index"/>
     <file name="arrow_sprite.svg" crc="4262019863" ref="index"/>
     <file name="arrow_sprite_poster_u318.png" crc="21436062" ref="index"/>
     <file name="half_l.svg" crc="9770243" ref="index"/>
@@ -197,26 +137,9 @@
     <file name="arrow2_sprite_light.png" crc="505869873" ref="thanks"/>
     <file name="arrow2_sprite_light_2x.png" crc="3804366327" ref="thanks"/>
   </folder>
-  <folder name="phone">
-    <folder name="css">
-      <file name="master_a-master.css" crc="326699742" ref="phone>index:phone>areas-of-practice:phone>article-details:phone>our-people:phone>contact:phone>about"/>
-      <file name="index.css" crc="4012977701" ref="phone>index"/>
-      <file name="areas-of-practice.css" crc="3761752721" ref="phone>areas-of-practice"/>
-      <file name="article-details.css" crc="127490771" ref="phone>article-details"/>
-      <file name="our-people.css" crc="230582953" ref="phone>our-people"/>
-      <file name="contact.css" crc="388293940" ref="phone>contact"/>
-      <file name="about.css" crc="4153424857" ref="phone>about"/>
-    </folder>
-    <file name="index.html" crc="450748929" seo="true" mt="1456540633501" redirect="true"/>
-    <file name="about.html" crc="4287212810" seo="true" mt="1456540633501" redirect="true"/>
-    <file name="our-people.html" crc="180462154" seo="true" mt="1456540633501" redirect="true"/>
-    <file name="areas-of-practice.html" crc="274318573" seo="true" mt="1456540633501" redirect="true"/>
-    <file name="contact.html" crc="4229329136" seo="true" mt="1456540633501" redirect="true"/>
-    <file name="article-details.html" crc="311700844" seo="true" mt="1456540633501" redirect="true"/>
-  </folder>
-  <file name="index.html" crc="3801578645" seo="true" mt="1456541342677" redirect="true"/>
-  <file name="contact.html" crc="3866431166" seo="true" mt="1456540633490" redirect="true"/>
-  <file name="portfolio.html" crc="255572464" seo="true" mt="1456541161267" redirect="true"/>
-  <file name="work-experience.html" crc="3882035763" seo="true" mt="1456541343219" redirect="true"/>
-  <file name="thanks.html" crc="503425895" seo="true" mt="1456540633505" redirect="true"/>
+  <file name="index.html" crc="485820014" seo="true" mt="1456542952928" redirect="true"/>
+  <file name="contact.html" crc="4153451123" seo="true" mt="1456542952925" redirect="true"/>
+  <file name="portfolio.html" crc="130873699" seo="true" mt="1456541161267" redirect="true"/>
+  <file name="work-experience.html" crc="4209061451" seo="true" mt="1456541343219" redirect="true"/>
+  <file name="thanks.html" crc="4264060954" seo="true" mt="1456540633505" redirect="true"/>
 </manifest>
