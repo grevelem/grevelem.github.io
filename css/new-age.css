@@ -405,17 +405,17 @@ footer ul li a.active {
   padding-left: 0;
 }
 .btn-outline {
-  color: #fdcc52;
+  color: white;
   border-color: #fdcc52;
-  background-color: white;
+  background-color: #fdcc52;
   border: 1px solid;
 }
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: white;
-  background-color: #fdcc52;
+  color: #fdcc52;
+  background-color: #white;
   border-color: #fdcc52;
 }
 .btn {
