@@ -414,7 +414,7 @@ footer ul li a.active {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #fdcc52;
+  color: white;
   background-color: #white;
   border-color: #fdcc52;
 }
