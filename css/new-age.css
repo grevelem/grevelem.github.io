@@ -439,7 +439,7 @@ footer ul li a.active {
   background: #222222;
 }
 img::selection {
-  color: black;
+  color: white;
   background: transparent;
 }
 img::-moz-selection {
