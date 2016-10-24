@@ -416,7 +416,7 @@ footer ul li a.active {
 .btn-outline.active {
   color: #000;
   background-color: white;
-  border-color: #fdcc52;
+  border-color: #000;
 }
 .btn {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
