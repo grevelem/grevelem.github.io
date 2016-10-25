@@ -81,7 +81,7 @@
                     <div class="header-content">
                         <div class="header-content-inner">
                             <h1>Enter Readings for the following Atmospheric Tests:</h1>
-                             <form><!--Add Form Action -->
+                             <!--<form><!--Add Form Action
                                  Oxygen: 
                                  <br>
                                  <input type="text" name="oxygen"> %<br><br>
@@ -91,8 +91,18 @@
                                  <input type="text" name="sulfide"> PPM <br><br>
                                  Carbon Monoxide (CO): <br>
                                  <input type="text" name="monoxide"> PPM<br><br>
-                            <!--<input type="submit" value="Submit">-->
-                            </form>
+                            <!--<input type="submit" value="Submit">
+                            </form>-->
+                            <p>Please input a number between 1 and 10:</p>
+
+                            <input id="numb">
+
+                            <button type="button" onclick="myFunction()">Submit</button>
+
+                            <input id="numb2">
+                            <button type="button" onclick="myTest()">Submit</button>
+
+                            <p id="demo"></p>
                             <!--<a href=".html" class="btn btn-outline btn-xl page-scroll">Submit</a>-->
                             <p>These buttons for test purposes only</p><br>
                             <a href="test_success.html" class="btn btn-outline btn-xl page-scroll">Success</a>
@@ -131,5 +141,36 @@
 
     <!-- Theme JavaScript -->
     <script src="js/new-age.min.js"></script>
+    
+    <script>
+function myFunction() {
+    var x, text;
+
+    // Get the value of the input field with id="numb"
+    x = document.getElementById("numb").value;
+
+    // If x is Not a Number or less than one or greater than 10
+    if (isNaN(x) || x < 1 || x > 12) {
+        text = "Not Safe please test again";
+    } else {
+        text = "Safe";
+    }
+    document.getElementById("demo").innerHTML = text;
+}
+function myTest() {
+    var x, text;
+
+    // Get the value of the input field with id="numb2"
+    x = document.getElementById("numb2").value;
+
+    // If x is Not a Number or less than one or greater than 10
+    if (isNaN(x) || x < 1 || x > 5) {
+        text = "Not Safe please test again";
+    } else {
+        text = "Safe";
+    }
+    document.getElementById("demo").innerHTML = text;
+}
+</script>
 
 </body>
