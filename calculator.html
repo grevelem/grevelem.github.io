@@ -82,34 +82,37 @@
                         <div class="header-content-inner">
                             <h1>Enter Readings for the following Atmospheric Tests:</h1>
                              
-                            <h1>Oxygen (%):</h1>
-                            
-                            <p><input id="numb"></p><br><br>
+                            <h1>Oxygen (%):<input id="numb"></h1><br><br>
 
                             <button type="button" onclick="myFunction()" class="btn btn-outline btn-xl page-scroll">Submit</button>
                             
                             <p id="demo1"></p>
                             
-                            <h1>Flammable/Explosive Gas: </h1>
-                            
-                            <p><input id="numb2"></p><br><br>
+                            <p>Flammable/Explosive Gas:</p><br>
+
+                            <input id="numb2"><br><br>
                             
                             <button type="button" onclick="myFunction2()" class="btn btn-outline btn-xl page-scroll">Submit</button>
 
                             <p id="demo2"></p>
                             
-                            <h1>Hydrogen Sulfide (H24):</h1> <input id="numb3"><br>
+                            <p>Hydrogen Sulfide (H24):</p><br>
+
+                            <input id="numb3"><br>
                             <button type="button" onclick="myFunction3()" class="btn btn-outline btn-xl page-scroll">Submit</button>
 
                             <p id="demo3"></p>
                             
-                            <h1>Carbon Monoxide (C0): </h1><input id="numb4"><br>
+                            <p>Carbon Monoxide (C0)</p><br>
+
+                            <input id="numb4"><br>
                             <button type="button" onclick="myFunction4()" class="btn btn-outline btn-xl page-scroll">Submit</button>
 
                             <p id="demo4"></p>
                             <!--<a href=".html" class="btn btn-outline btn-xl page-scroll">Submit</a>-->
+                            <p>These buttons for test purposes only</p><br>
                             <a href="test_success.html" class="btn btn-outline btn-xl page-scroll">Success</a>
-                             <!--<a href="test_failure.html" class="btn btn-outline btn-xl page-scroll">Failure</a>-->
+                             <a href="test_failure.html" class="btn btn-outline btn-xl page-scroll">Failure</a>
                         </div>
                     </div>
                 </div>
@@ -154,7 +157,7 @@ function myFunction() {
 
     // If x is Not a Number or less than one or greater than 10
     if (isNaN(x) || x < 19.5 || x > 23.5) {
-        text = "Not Safe.";
+        text = "Not Safe, Retest until safe";
     } else {
         text = "Oxygen levels are safe, continue to question 2.";
     }
@@ -168,7 +171,7 @@ function myFunction2() {
 
     // If x is Not a Number or less than one or greater than 10
     if (isNaN(x) || x < 0 || x > 10) {
-        text = "The Confined Spaces Does not Meet the Standards for Atmospheric Tests. This is not a Safe Space to Enter. Re-check Atmosphere until readings are within normal range."";
+        text = "Not Safe please test again";
     } else {
         text = "Flammable/Explosive Gas levels are safe, continue to question 3.";
     }
@@ -182,7 +185,7 @@ function myFunction3() {
 
     // If x is Not a Number or less than one or greater than 10
     if (isNaN(x) || x < 0 || x > 5.0) {
-        text = "The Confined Spaces Does not Meet the Standards for Atmospheric Tests. This is not a Safe Space to Enter. Re-check Atmosphere until readings are within normal range."";
+        text = "Not Safe please test again";
     } else {
         text = "Hydrogen Sulfide levels are safe, continue to question 4.";
     }
@@ -196,9 +199,9 @@ function myFunction3() {
 
     // If x is Not a Number or less than one or greater than 10
     if (isNaN(x) || x < 0 || x > 25) {
-        text = "The Confined Spaces Does not Meet the Standards for Atmospheric Tests. This is not a Safe Space to Enter. Re-check Atmosphere until readings are within normal range."";
+        text = "Not Safe please test again";
     } else {
-        text = "Carbon Monoxide Levels are safe, click "Next" button below.";
+        text = "Carbon Monoxide Levels are safe";
     }
     document.getElementById("demo4").innerHTML = text;
 }
