@@ -75,21 +75,21 @@
                         <div class="header-content-inner">
                              <h1>Enter Readings for the following Atmospheric Tests:</h1>
                              
-        <p>Oxygen (%): <input id="numb"></p>
+        <p>Oxygen (%): <input id="numb"> %</p>
                     
         <p id="demo1"></p>
 
         <button type="button" onclick="myFunction()" class="btn btn-outline btn-xl page-scroll">Submit</button>
                             
                             
-        <p>Flammable/Explosive Gas: <input id="numb2"></p>
+        <p>Flammable/Explosive Gas: <input id="numb2"> %</p>
                     
         <p id="demo2"></p>
                             
         <button type="button" onclick="myFunction2()" class="btn btn-outline btn-xl page-scroll">Submit</button>
           
                             
-        <p>Hydrogen Sulfide (H24): <input id="numb3"></p>
+        <p>Hydrogen Sulfide (H24): <input id="numb3"> %</p>
                     
         <p id="demo3"></p>
                             
@@ -97,14 +97,14 @@
         <button type="button" onclick="myFunction3()" class="btn btn-outline btn-xl page-scroll">Submit</button>
 
                             
-        <p>Carbon Monoxide (C0): <input id="numb4"></p>
+        <p>Carbon Monoxide (C0): <input id="numb4"> PPM</p> 
                     
         <p id="demo4"></p>
             
         <button type="button" onclick="myFunction4()" class="btn btn-outline btn-xl page-scroll">Submit</button><br><br>
                             <span></span>
                             
-        <a href="test_success.html" class="btn btn-outline btn-xl page-scroll">Success</a>
+        <a href="test_success.html" class="btn btn-outline btn-xl page-scroll">Next</a>
                         </div>
                     </div>
                 </div>
@@ -161,7 +161,7 @@ function myFunction2() {
     x = document.getElementById("numb2").value;
 
     // If x is Not a Number or less than one or greater than 10
-    if (isNaN(x) || x < 0 || x > 10) {
+    if (isNaN(x) || x < 0 || x > 9) {
         text = "Not Safe please test again";
     } else {
         text = "Flammable/Explosive Gas levels are safe, continue to question 3.";
@@ -175,7 +175,7 @@ function myFunction3() {
     x = document.getElementById("numb3").value;
 
     // If x is Not a Number or less than one or greater than 10
-    if (isNaN(x) || x < 0 || x > 5.0) {
+    if (isNaN(x) || x < 0 || x > 9) {
         text = "Not Safe please test again";
     } else {
         text = "Hydrogen Sulfide levels are safe, continue to question 4.";
@@ -189,7 +189,7 @@ function myFunction3() {
     x = document.getElementById("numb4").value;
 
     // If x is Not a Number or less than one or greater than 10
-    if (isNaN(x) || x < 0 || x > 25) {
+    if (isNaN(x) || x < 0 || x > 49) {
         text = "Not Safe please test again";
     } else {
         text = "Carbon Monoxide Levels are safe";
