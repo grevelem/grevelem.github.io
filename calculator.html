@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>MITA Enter Right - Home</title>
+    <title>MITA Enter Right - Identifying Confined Spaces</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -73,23 +73,40 @@
                 <div class="col-sm-7">
                     <div class="header-content">
                         <div class="header-content-inner">
-                            <h1>Identify a Confined Space.</h1>
-                            <img src="img/enterright.png" width="320" alt="Enter Right"><br><br>
-                            <a href="license_agreement.html" class="btn btn-outline btn-xl page-scroll">Test Your Confined Space</a>
+                             <h1>Enter Readings for the following Atmospheric Tests:</h1>
+                             
+        <p>Oxygen (%): <input id="numb"> %</p>
+                    
+        <p id="demo1"></p>
+
+        <button type="button" onclick="myFunction()" class="btn btn-outline btn-xl page-scroll">Submit</button>
+                            
+                            
+        <p>Flammable/Explosive Gas: <input id="numb2"> %</p>
+                    
+        <p id="demo2"></p>
+                            
+        <button type="button" onclick="myFunction2()" class="btn btn-outline btn-xl page-scroll">Submit</button>
+          
+                            
+        <p>Hydrogen Sulfide (H24): <input id="numb3"> %</p>
+                    
+        <p id="demo3"></p>
+                            
+                    
+        <button type="button" onclick="myFunction3()" class="btn btn-outline btn-xl page-scroll">Submit</button>
+
+                            
+        <p>Carbon Monoxide (C0): <input id="numb4"> PPM</p> 
+                    
+        <p id="demo4"></p>
+            
+        <button type="button" onclick="myFunction4()" class="btn btn-outline btn-xl page-scroll">Submit</button><br><br>
+                            <span></span>
+                            
+        <a href="test_success.html" class="btn btn-outline btn-xl page-scroll">Next</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-5">
-                    <!--<div class="device-container">
-                            
-                                <div class="screen">
-                                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                    <!--<img src="img/appfront.png" class="img-responsive" alt="Enter Right Logo">
-                                </div>-->
-                                <div class="button">
-                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                                </div>
-            </div>
                 </div>
             </div>
         </div>
@@ -122,7 +139,65 @@
 
     <!-- Theme JavaScript -->
     <script src="js/new-age.min.js"></script>
+     <script>
+function myFunction() {
+    var x, text;
+
+    // Get the value of the input field with id="numb"
+    x = document.getElementById("numb").value;
+
+    // If x is Not a Number or less than one or greater than 10
+    if (isNaN(x) || x < 19.5 || x > 23.5) {
+        text = "Confed Space Oxygen Levels not Safe, recheck atmosphere levels until safe";
+    } else {
+        text = "Oxygen levels are safe, continue to question 2.";
+    }
+    document.getElementById("demo1").innerHTML = text;
+}
+function myFunction2() {
+    var x, text;
+
+    // Get the value of the input field with id="numb2"
+    x = document.getElementById("numb2").value;
+
+    // If x is Not a Number or less than one or greater than 10
+    if (isNaN(x) || x < 0 || x > 9) {
+        text = "Not Safe please test again";
+    } else {
+        text = "Flammable/Explosive Gas levels are safe, continue to question 3.";
+    }
+    document.getElementById("demo2").innerHTML = text;
+}
+function myFunction3() {
+    var x, text;
+
+    // Get the value of the input field with id="numb2"
+    x = document.getElementById("numb3").value;
+
+    // If x is Not a Number or less than one or greater than 10
+    if (isNaN(x) || x < 0 || x > 9) {
+        text = "Not Safe please test again";
+    } else {
+        text = "Hydrogen Sulfide levels are safe, continue to question 4.";
+    }
+    document.getElementById("demo3").innerHTML = text;
+}
+        function myFunction4() {
+    var x, text;
+
+    // Get the value of the input field with id="numb2"
+    x = document.getElementById("numb4").value;
+
+    // If x is Not a Number or less than one or greater than 10
+    if (isNaN(x) || x < 0 || x > 49) {
+        text = "Not Safe please test again";
+    } else {
+        text = "Carbon Monoxide Levels are safe";
+    }
+    document.getElementById("demo4").innerHTML = text;
+}
+</script>
+
+
 
 </body>
-
-</html>

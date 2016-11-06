@@ -57,6 +57,7 @@ p {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 20px;
+  color: black;
 }
 .navbar-default {
   background-color: white;
@@ -72,11 +73,11 @@ p {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
-  color: #fdcc52;
+  color: #000000;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #fcbd20;
+  color: #000000;
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-size: 12px;
@@ -95,11 +96,11 @@ p {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #fdcc52;
+  color: #000000;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #fdcc52 !important;
+  color: #000000 !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -151,11 +152,11 @@ header {
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-  background: url("../img/bg-pattern.png"), #7b4397;
+  background: url("../img/bg-pattern.png"), #473D99;
   /* fallback for old browsers */
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #006BFF, #473D99);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #006BFF, #473D99);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
 }
@@ -405,17 +406,18 @@ footer ul li a.active {
   padding-left: 0;
 }
 .btn-outline {
-  color: white;
-  border-color: white;
+  color: black;
+  border-color: #fdcc52;
+  background-color: #fdcc52;
   border: 1px solid;
 }
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: white;
-  background-color: #fdcc52;
-  border-color: #fdcc52;
+  color: #000;
+  background-color: white;
+  border-color: #000;
 }
 .btn {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
@@ -447,4 +449,12 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+input{
+    color: black;
+}
+.contact{
+    color: black;
+    padding-top: 20px;
+    background-color: ghostwhite;
 }
