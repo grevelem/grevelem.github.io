@@ -20,35 +20,42 @@
 			<section id="header">
 				<div class="inner">
                      <div>
-                   <h1>Enter Readings for the following Atmospheric Tests:</h1>
+                         <h1>Enter Readings for the following Atmospheric Tests:</h1>
+                         
+                         <table>
+                             <tr>
+                             <td> <p>Oxygen (%): <input id="numb"> %</p>
+                                 <p id="demo1"></p>
+                                 <button type="button" onclick="myFunction()" class="btn btn-outline btn-xl page-scroll">Submit</button></td>
+                             <td>
+                                 <p>Flammable/Explosive Gas: <input id="numb2"> %</p>
+                                 <p id="demo2"></p>
+                                 <button type="button" onclick="myFunction2()" class="btn btn-outline btn-xl page-scroll">Submit</button>
+                                 
+                                 </td>
                              
-        <p>Oxygen (%): <input id="numb"> %</p>
-                    
-        <p id="demo1"></p>
+                             </tr>
+                             
+                             <tr>
+                                 <td>  
+                                     <p>Hydrogen Sulfide (H24): <input id="numb3"> %</p>
+                                     <p id="demo3"></p>
+                                    <button type="button" onclick="myFunction3()" class="btn btn-outline btn-xl page-scroll">Submit</button></td>
+                                 <td>
+                                  <p>Carbon Monoxide (C0): <input id="numb4"> PPM</p> 
+                                    <p id="demo4"></p>
+                                    <button type="button" onclick="myFunction4()" class="btn btn-outline btn-xl page-scroll">Submit</button><br><br>
+                                 
+                                 
+                                 </td>
+                             
+                             
+                             
+                             </tr>
+                         
+                         </table>
+                   
 
-        <button type="button" onclick="myFunction()" class="btn btn-outline btn-xl page-scroll">Submit</button>
-                            
-                            
-        <p>Flammable/Explosive Gas: <input id="numb2"> %</p>
-                    
-        <p id="demo2"></p>
-                            
-        <button type="button" onclick="myFunction2()" class="btn btn-outline btn-xl page-scroll">Submit</button>
-          
-                            
-        <p>Hydrogen Sulfide (H24): <input id="numb3"> %</p>
-                    
-        <p id="demo3"></p>
-                            
-                    
-        <button type="button" onclick="myFunction3()" class="btn btn-outline btn-xl page-scroll">Submit</button>
-
-                            
-        <p>Carbon Monoxide (C0): <input id="numb4"> PPM</p> 
-                    
-        <p id="demo4"></p>
-            
-        <button type="button" onclick="myFunction4()" class="btn btn-outline btn-xl page-scroll">Submit</button><br><br>
                             <span></span>
                             
         <a href="test_success.html" class="btn btn-outline btn-xl page-scroll">Next</a>
