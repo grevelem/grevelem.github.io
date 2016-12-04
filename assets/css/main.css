@@ -3106,7 +3106,7 @@
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 14pt;
+				font-size: 16pt;
 			}
 
 		/* Header */
@@ -3124,7 +3124,7 @@
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 13pt;
+				font-size: 16pt;
 			}
 
 			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
@@ -3228,7 +3228,7 @@
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 14pt;
 			}
 
 			h1 {
