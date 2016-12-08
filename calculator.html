@@ -96,7 +96,7 @@ function myFunction() {
 
     // If x is Not a Number or less than one or greater than 10
     if (isNaN(x) || x < 19.5 || x > 23.5) {
-        text = "Confined Space Oxygen Levels NOT Safe, recheck atmosphere levels until safe";
+        text = "Confined Space Oxygen Levels NOT Safe, test again.";
         document.getElementById("demo1").style.backgroundColor = '#FF6C60';
     } else {
         text = "Oxygen levels are safe, continue to question 2.";
@@ -114,7 +114,7 @@ function myFunction2() {
 
     // If x is Not a Number or less than one or greater than 10
     if (isNaN(x) || x < 0 || x > 9) {
-        text = "NOT Safe please test again";
+        text = "NOT Safe, test again.";
         document.getElementById("demo2").style.backgroundColor = '#FF6C60';
     } else {
         text = "Flammable/Explosive Gas levels are safe, continue to question 3.";
@@ -130,7 +130,7 @@ function myFunction3() {
 
     // If x is Not a Number or less than one or greater than 10
     if (isNaN(x) || x < 0 || x > 9) {
-        text = "NOT Safe please test again";
+        text = "NOT Safe, test again.";
         document.getElementById("demo3").style.backgroundColor = '#FF6C60';
     } else {
         text = "Hydrogen Sulfide levels are safe, continue to question 4.";
@@ -146,10 +146,10 @@ function myFunction3() {
 
     // If x is Not a Number or less than one or greater than 10
     if (isNaN(x) || x < 0 || x > 49) {
-        text = "NOT Safe please test again";
+        text = "NOT Safe, test again.";
         document.getElementById("demo4").style.backgroundColor = '#FF6C60';
     } else {
-        text = "Carbon Monoxide Levels are safe";
+        text = "Carbon Monoxide Levels are safe, click "Next" to continue.";
         document.getElementById("demo4").style.backgroundColor = '#99C262';
     }
     document.getElementById("demo4").innerHTML = text;
