@@ -134,7 +134,7 @@ function myFunction3() {
         document.getElementById("demo3").style.backgroundColor = '#FF6C60';
     } else {
         text = "Hydrogen Sulfide levels are safe, continue to question 4.";
-        document.getElementById("demo2").style.backgroundColor = '#99C262';
+        document.getElementById("demo3").style.backgroundColor = '#99C262';
     }
     document.getElementById("demo3").innerHTML = text;
 }
@@ -147,10 +147,10 @@ function myFunction3() {
     // If x is Not a Number or less than one or greater than 10
     if (isNaN(x) || x < 0 || x > 49) {
         text = "NOT Safe please test again";
-        document.getElementById("demo3").style.backgroundColor = '#FF6C60';
+        document.getElementById("demo4").style.backgroundColor = '#FF6C60';
     } else {
         text = "Carbon Monoxide Levels are safe";
-        document.getElementById("demo2").style.backgroundColor = '#99C262';
+        document.getElementById("demo4").style.backgroundColor = '#99C262';
     }
     document.getElementById("demo4").innerHTML = text;
 }
