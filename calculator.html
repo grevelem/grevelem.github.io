@@ -107,8 +107,10 @@ function myFunction2() {
     // If x is Not a Number or less than one or greater than 10
     if (isNaN(x) || x < 0 || x > 9) {
         text = "NOT Safe please test again";
+        document.getElementById("demo2").style.backgroundColor = '#FF6C60';
     } else {
         text = "Flammable/Explosive Gas levels are safe, continue to question 3.";
+        document.getElementById("demo2").style.backgroundColor = '#99C262';
     }
     document.getElementById("demo2").innerHTML = text;
 }
