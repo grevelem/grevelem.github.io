@@ -26,7 +26,7 @@ body {
 .headline h1 {
     font-size: 130px;
     background: #fff;
-    background: rgba(255,255,255,5.0);
+    background: rgba(255,255,255,0.5);
 }
 
 .headline h2 {
