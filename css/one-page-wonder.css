@@ -31,8 +31,6 @@ body {
 .headline h2 {
     font-size: 77px;
     color: darkgreen; 
-    background: #fff;
-    background: rgba(255,255,255,0.9);
 }
 
 .featurette-divider {
