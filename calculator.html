@@ -25,11 +25,10 @@
                          <h1><strong>Enter Readings for the following Atmospheric Tests:</strong></h1>
                          <p>&nbsp;</p>
                          <p><strong>Click the "Test" button below each input field to test the atmospheric value's for each variable. After all tests pass, please click the "Next" button.</strong></p>
-                    <form method="get" action="project_summary.html"></form>
-                         <p>Oxygen (O2) %:</p><input id="numb" class="required" placeholder="Default">
+        
+                         <p>Oxygen (O2) %:</p><input id="numb" placeholder="Default" required>
                          <p>&nbsp;</p>
                                  <p id="demo1"></p>
-                                <p class="required"></p>
                          <p>&nbsp;</p>
                          
                                  <button type="button" style="text-align:center;" onclick="myFunction()" class="btn btn-outline btn-xl page-scroll">Test O2</button>
@@ -37,7 +36,7 @@
                          <p>&nbsp;</p>
                         
                              
-                                 <p>Flammable/Explosive Gas %: <br><input id="numb2" class="required" placeholder="Default"></p>
+                                 <p>Flammable/Explosive Gas %: <br><input id="numb2" placeholder="Default" required></p>
                          <p>&nbsp;</p>
                                  <p id="demo2"></p>
                          <p>&nbsp;</p>
@@ -47,22 +46,21 @@
                         <p>&nbsp;</p>
                                  
                                
-                                     <p>Hydrogen Sulfide (H2S) PPM: <br><input id="numb3" class="required" placeholder="Default"></p>
+                                     <p>Hydrogen Sulfide (H2S) PPM: <br><input id="numb3" placeholder="Default" required></p>
                          <p>&nbsp;</p>
                                      <p id="demo3"></p>
                         <p>&nbsp;</p>
                                     <button type="button" style="text-align:center;" onclick="myFunction3()" class="btn btn-outline btn-xl page-scroll">Test H2S</button>
                          <p>&nbsp;</p>
                         
-                                  <p>Carbon Monoxide (CO) PPM: <br> <input id="numb4" class="required" placeholder="Default"></p> 
+                                  <p>Carbon Monoxide (CO) PPM: <br> <input id="numb4" placeholder="Default"></p> 
                          <p>&nbsp;</p>
                                     <p id="demo4"></p>
                          <p>&nbsp;</p>
                                     <button type="button" style="text-align:center;" onclick="myFunction4()" class="btn btn-outline btn-xl page-scroll">Test CO</button><br><br>
                          <p>&nbsp;</p>
-                            
+
                             <span></span>
-                         
                           <ul class="actions">
 						<li><a href="test_success.html" class="button special">Next</a></li>
 					</ul
@@ -91,19 +89,18 @@
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
                  <script>
-                     
 function myFunction() {
     var x, text;
+
     // Get the value of the input field with id="numb"
     x = document.getElementById("numb").value;
-
 
     // If x is Not a Number or less than one or greater than 10
     if (isNaN(x) || x < 19.5 || x > 23.5) {
         text = "NOT Safe, test again.";
         document.getElementById("demo1").style.backgroundColor = '#FF6C60';
     } else {
-        text = "Oxygen levels are safe, continue to next input.";
+        text = "Oxygen levels are safe, continue to next input field.";
         document.getElementById("demo1").style.backgroundColor = '#99C262';
 
     }
@@ -121,7 +118,7 @@ function myFunction2() {
         text = "NOT Safe, test again.";
         document.getElementById("demo2").style.backgroundColor = '#FF6C60';
     } else {
-        text = "Flammable/Explosive Gas levels are safe, continue to next input.";
+        text = "Flammable/Explosive Gas levels are safe, continue to next input field.";
         document.getElementById("demo2").style.backgroundColor = '#99C262';
     }
     document.getElementById("demo2").innerHTML = text;
@@ -137,7 +134,7 @@ function myFunction3() {
         text = "NOT Safe, test again.";
         document.getElementById("demo3").style.backgroundColor = '#FF6C60';
     } else {
-        text = "Hydrogen Sulfide levels are safe, continue to next input.";
+        text = "Hydrogen Sulfide levels are safe, continue to next input field.";
         document.getElementById("demo3").style.backgroundColor = '#99C262';
     }
     document.getElementById("demo3").innerHTML = text;
@@ -157,13 +154,6 @@ function myFunction3() {
         document.getElementById("demo4").style.backgroundColor = '#99C262';
     }
     document.getElementById("demo4").innerHTML = text;
-}
-function myFunction5(){
-    var x, text;
-    
-    x = document.getElementsByClassName("required").required = true;
-    x = document.getElementsByClassName("required").innerHTML = "You must submit a number.";
-    
 }
 </script>
 

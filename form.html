@@ -2,58 +2,21 @@
 <html>
 <body>
 
- <html>
-           
-                    <form method="get" action="results.html">
-                         <p>Oxygen (O2) %:</p><input type="text" name="oxygen levels" id="numb" class="required" placeholder="Default">
-                         <p>&nbsp;</p>
-                                 <p id="demo1"></p>
-                                <p class="required"></p>
-                         <p>&nbsp;</p>
-                         
-                                 <button type="button" style="text-align:center;" onclick="myFunction()" class="btn btn-outline btn-xl page-scroll">Test O2</button>
-                         
-                         <p>&nbsp;</p>
-                        
-                             
-                                 <p>Flammable/Explosive Gas %: <br><input type="text" name="flammable/explosive gas values" id="numb2" class="required" placeholder="Default"></p>
-                         <p>&nbsp;</p>
-                                 <p id="demo2"></p>
-                         <p>&nbsp;</p>
-                         
-                                 <button type="button" style="text-align:center;" onclick="myFunction2()" class="btn btn-outline btn-xl page-scroll">Test Flammable Gas</button>
-                         
-                        <p>&nbsp;</p>
-                                 
-                               
-                                     <p>Hydrogen Sulfide (H2S) PPM: <br><input id="numb3" class="required" placeholder="Default"></p>
-                         <p>&nbsp;</p>
-                                     <p id="demo3"></p>
-                        <p>&nbsp;</p>
-                                    <button type="button" style="text-align:center;" onclick="myFunction3()" class="btn btn-outline btn-xl page-scroll">Test H2S</button>
-                         <p>&nbsp;</p>
-                        
-                                  <p>Carbon Monoxide (CO) PPM: <br> <input id="numb4" class="required" placeholder="Default"></p> 
-                         <p>&nbsp;</p>
-                                    <p id="demo4"></p>
-                         <p>&nbsp;</p>
-                                    <button type="button" style="text-align:center;" onclick="myFunction4()" class="btn btn-outline btn-xl page-scroll">Test CO</button><br><br>
-                         <p>&nbsp;</p>
-                         </form>
-        <input type="submit" value="Send" />
-    </form>
-</html>
-    
+   <form id="frm1">
+        First name: <input type="text" name="fname" value="" ><br>
+        Last name: <input type="text" name="lname" value="" ><br>
+        <input type="button" id="btn" onClick="myfun();" value="Submit">
+   </form>
+
+   <p>Return the user input of each element in the form:</p>
+
+<script>
+    var x = document.getElementById("frm1");
+    function myfun() {
+       for ( var i = 0; i < x.length; i++ ) {
+           document.write(x.elements[i].value);
+       }
+</script>
+
  </body>
  </html>
-
-
-                   
-                            
-                            <span></span>
-                         
-                          <ul class="actions">
-						<li><a href="test_success.html" class="button special">Next</a></li>
-					</ul
-                        </div>
-                    
