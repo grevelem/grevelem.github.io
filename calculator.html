@@ -13,23 +13,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-        <style>
-        div.wrapper {
-            position:  absolute;
-            top : 200px;
-            left: 300px;
-            width: 300px;
-            height:300px;
-            border:1px solid black;
-        }
-
-        input[type="text"] {
-             position: relative;
-             display: block;
-             margin : 0 auto;
-        }
-
-    </style>
+        
 	</head>
     
 	<body>
@@ -40,8 +24,8 @@
                      <div style="text-align:center;">
                          <h1><strong>Enter Readings for the following Atmospheric Tests:</strong></h1>
                          <p><strong>Click the "Test" button below each input field to test the atmospheric value's for each variable. After all tests pass, please click the "Next" button.</strong></p>
-            
-                         <p>Oxygen (O2):</p><input id="numb" placeholder="Insert Oxygen Level"> %
+        
+                         <p>Oxygen (O2):</p> &nbsp;<input id="numb" placeholder="Insert Oxygen Level"> %
                          <p>&nbsp;</p>
                                  <p id="demo1"></p>
                          
@@ -51,8 +35,7 @@
                          <p>&nbsp;</p>
                         
                              
-                                 <p>Flammable/Explosive Gas: <br><input id="numb2"></p>
-                         <p>%</p>
+                                 <p>Flammable/Explosive Gas: <br> &nbsp; <input id="numb2"> %</p>
                          <p>&nbsp;</p>
                                  <p id="demo2"></p>
                          
@@ -62,15 +45,14 @@
                         <p>&nbsp;</p>
                                  
                                
-                                     <p>Hydrogen Sulfide (H2S): <br><input id="numb3"></p>
-                         <p>PPM</p>
+                                     <p>Hydrogen Sulfide (H2S): <br> &nbsp; <input id="numb3"> PPM</p>
                          <p>&nbsp;</p>
                                      <p id="demo3"></p>
                         
                                     <button type="button" style="text-align:center;" onclick="myFunction3()" class="btn btn-outline btn-xl page-scroll">Test H2S</button>
                          <p>&nbsp;</p>
                         
-                                  <p>Carbon Monoxide (CO): <br> <input id="numb4"> PPM</p> 
+                                  <p>Carbon Monoxide (CO): <br> &nbsp; <input id="numb4"> PPM</p> 
                          <p>&nbsp;</p>
                                     <p id="demo4"></p>
                          
