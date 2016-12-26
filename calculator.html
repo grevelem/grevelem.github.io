@@ -26,7 +26,7 @@
                          <p>&nbsp;</p>
                          <p><strong>Click the "Test" button below each input field to test the atmospheric value's for each variable. After all tests pass, please click the "Next" button.</strong></p>
         
-                         <p>Oxygen (O2) %:</p><input id="numb" placeholder="Default">
+                         <p>Oxygen (O2) %:</p><input id="numb" class="requred" placeholder="Default">
                          <p>&nbsp;</p>
                                  <p id="demo1"></p>
                                 <p id="warning1"></p>
@@ -37,7 +37,7 @@
                          <p>&nbsp;</p>
                         
                              
-                                 <p>Flammable/Explosive Gas %: <br><input id="numb2" placeholder="Default"></p>
+                                 <p>Flammable/Explosive Gas %: <br><input id="numb2" class="requred" placeholder="Default"></p>
                          <p>&nbsp;</p>
                                  <p id="demo2"></p>
                          <p>&nbsp;</p>
@@ -47,14 +47,14 @@
                         <p>&nbsp;</p>
                                  
                                
-                                     <p>Hydrogen Sulfide (H2S) PPM: <br><input id="numb3" placeholder="Default"></p>
+                                     <p>Hydrogen Sulfide (H2S) PPM: <br><input id="numb3" class="requred" placeholder="Default"></p>
                          <p>&nbsp;</p>
                                      <p id="demo3"></p>
                         <p>&nbsp;</p>
                                     <button type="button" style="text-align:center;" onclick="myFunction3()" class="btn btn-outline btn-xl page-scroll">Test H2S</button>
                          <p>&nbsp;</p>
                         
-                                  <p>Carbon Monoxide (CO) PPM: <br> <input id="numb4" placeholder="Default"></p> 
+                                  <p>Carbon Monoxide (CO) PPM: <br> <input id="numb4" class="requred" placeholder="Default"></p> 
                          <p>&nbsp;</p>
                                     <p id="demo4"></p>
                          <p>&nbsp;</p>
@@ -90,12 +90,17 @@
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
                  <script>
+                     
+function myFunction0(){
+    x = document.getElementsByClassName("required").required = true;
+        document.getElementsByClassName("required").innerHTML = "You must submit a number.";
+    
+}
 function myFunction() {
     var x, text;
-    document.getElementById("numb").required = true;
-    document.getElementById("warning1").innerHTML = "You must submit a number.";
     // Get the value of the input field with id="numb"
     x = document.getElementById("numb").value;
+
 
     // If x is Not a Number or less than one or greater than 10
     if (isNaN(x) || x < 19.5 || x > 23.5) {
