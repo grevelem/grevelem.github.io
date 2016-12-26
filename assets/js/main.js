@@ -42,6 +42,10 @@
 
 		// Scrolly.
 			$('.scrolly').scrolly();
+        
+        // Required
+       $("input").prop('required',true);
+
 
 	});
 
