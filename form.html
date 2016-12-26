@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+   <form id="frm1">
+        First name: <input type="text" name="fname" value="" ><br>
+        Last name: <input type="text" name="lname" value="" ><br>
+        <input type="button" id="btn" onClick="myfun();" value="Submit">
+   </form>
+
+   <p>Return the user input of each element in the form:</p>
+
+<script>
+ var x = document.getElementsByTagName("input");
+ for(var i = 0; i < x.length; i++)
+ {
+      if(x[i].parentNode != document.getElementById("frm1"))
+      {
+           x.splice(i, 1);
+      }
+ }
+
+ for(i = 0; i < x.length; i++)
+ {
+      document.getElementById("summarydiv").innerHTML += x[i].value;
+ }
+</script>
+
+ </body>
+ </html>
