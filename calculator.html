@@ -91,7 +91,8 @@
                  <script>
 function myFunction() {
     var x, text;
-
+    document.getElementById("numb").required = true;
+    document.getElementById("warning1").innerHTML = "You must submit a number.";
     // Get the value of the input field with id="numb"
     x = document.getElementById("numb").value;
 
