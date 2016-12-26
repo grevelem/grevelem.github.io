@@ -31,7 +31,7 @@
                                  <p id="demo1"></p>
                          <p>&nbsp;</p>
                          
-                                 <button type="button" style="text-align:center;" onclick="myFunction()" class="btn btn-outline btn-xl page-scroll">Test O2</button>
+                                 <button type="button" style="text-align:center;" onclick="myFunction(); return ValidateNumeric();" class="btn btn-outline btn-xl page-scroll">Test O2</button>
                          
                          <p>&nbsp;</p>
                         
@@ -154,6 +154,19 @@ function myFunction3() {
         document.getElementById("demo4").style.backgroundColor = '#99C262';
     }
     document.getElementById("demo4").innerHTML = text;
+}
+function ValidateNumeric() {
+  var val = document.getElementById("tbNumber").value;
+  var validChars = '0123456789.'; 
+
+  for(var i = 0; i < val.length; i++) { 
+    if(validChars.indexOf(val.charAt(i)) == -1) {
+      alert('Please enter valid number');
+      return false;
+    }
+  } 
+
+  return true; 
 }
 </script>
 
