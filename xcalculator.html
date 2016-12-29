@@ -22,7 +22,7 @@
 			<section id="header">
 				<div class="inner">
                      <div style="text-align:center;">
-                         <h1><strong>Enter Readings for the following Atmospheric Tests:</strong></h1>
+                         <h1><strong>Enter Readings for the Following Atmospheric Tests:</strong></h1>
                          <p>&nbsp;</p>
                          <p><strong>Click the "Test" button below each input field to test the atmospheric value's for each variable. After all tests pass, please click the "Next" button.</strong></p>
         
@@ -59,13 +59,10 @@
                          <p>&nbsp;</p>
                                     <button type="button" style="text-align:center;" onclick="myFunction4()" class="btn btn-outline btn-xl page-scroll">Test CO</button><br><br>
                          <p>&nbsp;</p>
-                                                     <p>&nbsp;</p>
-                                 <p id="demo5"></p>
-                         <p>&nbsp;</p>
+
                             <span></span>
                           <ul class="actions">
-						<!--<li><a href="test_success.html" class="button special">Next</a></li>-->
-                        <li><a onclick="validateTest()" class="button special">Next</a></li>
+						<li><a href="test_success.html" class="button special">Next</a></li>
 					</ul
                         </div>
                     
@@ -90,52 +87,7 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-<script>
-var completion = new Array("0","0","0","0");
-var answers = new Array("0","0","0","0");
-
-function validateTest(){
-    var te
-    var passed = false;
-    for (i=0; i<=3; i++){
-    
-        if (completion[i] == 0 ){
-        
-            text = "Must answer all questions correctly.";
-            document.getElementById("demo5").style.backgroundColor = '#FF6C60';
-            
-            document.getElementById("demo5").innerHTML = text;
-            return;
-        }
-    }
-
-    q1 = document.getElementById("numb").value
-    q2 = document.getElementById("numb2").value
-    q3 = document.getElementById("numb3").value
-    q4 = document.getElementById("numb4").value
-    
-    saveData(q1,q2,q3,q4);
-    
-    //window.location.href = 'project_summary.html';
-    
-
-}
-
-function saveData(a1,a2,a3,a4) {
-   var answers = {
-     A1: a1,
-     A2: a2,
-     A3: a3,
-     A4: a4
-   };
-   //converts to JSON string the Object
-   answers = JSON.stringify(answers);
-   //creates a base-64 encoded ASCII string
-   answers = btoa(answers);
-   //save the encoded accout to web storage
-   location.assign("project_summary.html?a=" + answers);
-}
-
+                 <script>
 function myFunction() {
     var x, text;
 
@@ -144,18 +96,12 @@ function myFunction() {
 
     // If x is Not a Number or less than one or greater than 10
     if (isNaN(x) || x < 19.5 || x > 23.5) {
-        completion[0] = 0;
         text = "NOT Safe, test again.";
         document.getElementById("demo1").style.backgroundColor = '#FF6C60';
     } else {
-        completion[0] = 1;
         text = "Oxygen levels are safe, continue to next input field.";
         document.getElementById("demo1").style.backgroundColor = '#99C262';
 
-    }
-    if (x == ""){
-        text = "Please enter a value";
-        document.getElementById("demo1").style.backgroundColor = '#cc6633';
     }
     document.getElementById("demo1").innerHTML = text;
     
@@ -165,19 +111,14 @@ function myFunction2() {
 
     // Get the value of the input field with id="numb2"
     x = document.getElementById("numb2").value;
+
     // If x is Not a Number or less than one or greater than 10
-    if (x == "" || isNaN(x) || x < 0 || x > 9) {
-        completion[1] = 0;
+    if (isNaN(x) || x < 0 || x > 9) {
         text = "NOT Safe, test again.";
         document.getElementById("demo2").style.backgroundColor = '#FF6C60';
     } else {
-        completion[1] = 1;
         text = "Flammable/Explosive Gas levels are safe, continue to next input field.";
         document.getElementById("demo2").style.backgroundColor = '#99C262';
-    }
-    if (x == ""){
-        text = "Please enter a value";
-        document.getElementById("demo2").style.backgroundColor = '#cc6633';
     }
     document.getElementById("demo2").innerHTML = text;
 }
@@ -189,18 +130,12 @@ function myFunction3() {
     x = document.getElementById("numb3").value;
 
     // If x is Not a Number or less than one or greater than 10
-    if (x == "" || isNaN(x) || x < 0 || x > 9) {
-        completion[2] = 0;
+    if (isNaN(x) || x < 0 || x > 9) {
         text = "NOT Safe, test again.";
         document.getElementById("demo3").style.backgroundColor = '#FF6C60';
     } else {
-        completion[2] = 1;
         text = "Hydrogen Sulfide levels are safe, continue to next input field.";
         document.getElementById("demo3").style.backgroundColor = '#99C262';
-    }
-    if (x == ""){
-        text = "Please enter a value";
-        document.getElementById("demo3").style.backgroundColor = '#cc6633';
     }
     document.getElementById("demo3").innerHTML = text;
 }
@@ -211,18 +146,12 @@ function myFunction3() {
     x = document.getElementById("numb4").value;
 
     // If x is Not a Number or less than one or greater than 10
-    if (x == "" || isNaN(x) || x < 0 || x > 49) {
-        completion[3] = 0;
+    if (isNaN(x) || x < 0 || x > 49) {
         text = "NOT Safe, test again.";
         document.getElementById("demo4").style.backgroundColor = '#FF6C60';
     } else {
-        completion[3] = 1;
         text = "Carbon Monoxide Levels are safe.";
         document.getElementById("demo4").style.backgroundColor = '#99C262';
-    }
-    if (x == ""){
-        text = "Please enter a value";
-        document.getElementById("demo4").style.backgroundColor = '#cc6633';
     }
     document.getElementById("demo4").innerHTML = text;
 }

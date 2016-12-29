@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>MITA Enter Right - Identifying Confined Spaces</title>
+		<title>Photon by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -15,17 +15,78 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
 	<body>
+    
+    <script>
+        function setDate(){
+            var today = new Date();
+            var dd = today.getDate();
+            var mm = today.getMonth()+1; //January is 0!
+            var yyyy = today.getFullYear();
+            document.getElementById("date").innerHTML = yyyy + "/" + mm + "/" + dd;
+            loadData();
+        }
+        window.onload = setDate;
+        /*
+        function loadData() {
+           var answers = localStorage.getItem('_answers');
+           if (!answers) return false;
+           localStorage.removeItem('_answers');
+           //decodes a string data encoded using base-64
+           answers = atob(answers);
+           //parses to Object the JSON string
+           answers = JSON.parse(answers);
+           //do what you need with the Object
+           
+           document.getElementById("a1").innerHTML = answers.a1;
+           document.getElementById("a2").innerHTML = answers.a2;
+           document.getElementById("a3").innerHTML = answers.a3;
+           document.getElementById("a4").innerHTML = answers.a4;
+           
+           
+           return true;
+        }
+        */
+        
+        function loadData() {
+           var answers = location.search;
+           if (!answers) return false;
+           answers = answers.substr(3);
+           //gets the 'a' parameter from querystring
+           /*
+           var a = (/^a=/);
+           answers = answers.split("&").filter(function(item) {
+            alert(a.test(item));
+              return a.test(item);
+           });
+           */
+           if (!answers.length) return false;
+           //gets the first element 'a' matched
+           answers = atob(answers);
+           answers = JSON.parse(answers);
+           //do what you need with the Object
+           document.getElementById("a1").innerHTML = answers.A1;
+           document.getElementById("a2").innerHTML = answers.A2;
+           document.getElementById("a3").innerHTML = answers.A3;
+           document.getElementById("a4").innerHTML = answers.A4;
+           return true;
+        }
+        
+    </script>
+    
+
 
 		<!-- Header -->
 			<section id="header">
 				<div class="inner">
                      <div>
-                       <h1>The Project Summary will go here.</h1>
-                         <p>&nbsp;</p>
-                         <p>&nbsp;</p>
-                         <p>&nbsp;</p>
-                    <ul class="actions">
-						<li><a href="project_summary.html" class="button special">Complete</a></li>
+                       <h1>Project Summary</h1>
+                       <h3 id='date'>Project Summary</h3>
+                    <ul class="actions vertical">
+                        <li><img src="images/check.png"> Oxygen (O2) %: <span id='a1' style="color:lime"></span></li>
+                        <li><img src="images/check.png"> Flammable/Explosive Gas %: <span id='a2' style="color:lime"></span></li>
+                        <li><img src="images/check.png"> Hydrogen Sulfide (H2S) PPM: <span id='a3' style="color:lime"></span></li>
+                        <li><img src="images/check.png"> Carbon Monoxide (CO) PPM: <span id='a4' style="color:lime"></span></li>
+						<li><a href="test_success.html" class="button special">Next</a></li>
                          </ul>
                          <br>
                          <br>
@@ -54,4 +115,5 @@
 			<script src="assets/js/main.js"></script>
 
 	</body>
+    
 </html>
