@@ -26,20 +26,10 @@
                                 <input type="text" name="project"><br>
                         Date: <br><input type="text" name="project"> 
                             </form><br>-->
-                    <script>
-        function setDate(){
-            var today = new Date();
-            var dd = today.getDate();
-            var mm = today.getMonth()+1; //January is 0!
-            var yyyy = today.getFullYear();
-            document.getElementById("date").innerHTML = yyyy + "/" + mm + "/" + dd;
-            loadData();
-        }
-        window.onload = setDate;}
-                    </script>
+              
                             <form action="/identify_space.html"  onsubmit="/identify_space.html">
                                 <strong>Project Name / Number:</strong> <br><input type="text" name="Project"><br>
-                                <!--<strong>Date:</strong> <br><input type="text" name="Date">-->
+                                <strong>Date:</strong> <br><input type="text" name="Date">
                                 <br>
                                 <br>
                                 <br /> 
