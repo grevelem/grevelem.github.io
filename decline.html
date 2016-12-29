@@ -15,6 +15,17 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
 	<body>
+         <script>
+        function setDate(){
+            var today = new Date();
+            var dd = today.getDate();
+            var mm = today.getMonth()+1; //January is 0!
+            var yyyy = today.getFullYear();
+            document.getElementById("date").innerHTML = mm + "/" + dd + "/" + yyyy;
+            loadData();
+        }
+        window.onload = setDate;
+        </script>
 
 		<!-- Header -->
 			<section id="header">
@@ -22,9 +33,9 @@
                      <div>
                          <h1><strong>This is NOT a Confined Space.</strong></h1>
                          <h1> <strong>Proceed in Compliance with MIOSHA Standards.</strong></h1>
-                            <p>Display Name of Project</p>
-                            <p>Display Date</p>
-                            <p>No Confined Spaces Identified</p>
+                            <p>Project Summary</p>
+                            <h3 id='date'>Project Date</h3>
+                         <p><strong>No Confined Spaces Identified</strong></p>
                     <ul class="actions">
 						<li><a href="project_start.html" class="button special">Test Another Space</a></li>
 					</ul>
