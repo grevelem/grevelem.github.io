@@ -22,7 +22,7 @@
             var dd = today.getDate();
             var mm = today.getMonth()+1; //January is 0!
             var yyyy = today.getFullYear();
-            document.getElementById("date").innerHTML = yyyy + "/" + mm + "/" + dd;
+            document.getElementById("date").innerHTML = mm + "/" + dd + "/" + yyyy;
             loadData();
         }
         window.onload = setDate;
