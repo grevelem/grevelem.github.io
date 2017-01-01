@@ -57,7 +57,7 @@
               
                             <!--<form action="/identify_space.html"  onsubmit="/identify_space.html">
                             </form>-->
-                                <strong>Project Name / Number:</strong> <br><input type="text" name="Project"><br>
+                                <!--<strong>Project Name / Number:</strong> <br><input type="text" name="Project"><br>-->
                                 <h3 id='date'>Project Date</h3>
                                 <p>&nbsp;</p>
                                 <div class="terms" style="height:140px;width:300px;margin: auto;overflow:auto;border:3px solid white;padding:1%"><p>TERMS &amp; CONDITIONS - Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p></div>
@@ -66,9 +66,31 @@
                                 <!--<h3><strong>By clicking "Start" you agree to the Terms &amp; Conditions.</strong></h3><br><p>&nbsp;</p>-->
                                 <!--<input class="btn btn-outline btn-xl page-scroll" type="submit" value="&nbsp;&nbsp;Start&nbsp;&nbsp;">-->
                      
-                                <input type="checkbox" name="terms" id="terms" onchange="/identify_space.html">  I Agree to the Terms &amp; Conditions
+                                <!--<input type="checkbox" name="terms" id="terms" onchange="/identify_space.html">  I Agree to the Terms &amp; Conditions
                                 <br><br>
-                                <input type="submit" name="submit" id="submit">
+                                <input type="submit" name="submit" id="submit">-->
+                    
+<SCRIPT language=JavaScript>
+function checkCheckBox(f){
+if (f.agree.checked == false )
+{
+alert('Please check the box to continue.');
+return false;
+}else
+return true;
+}
+//-->
+</SCRIPT>
+
+<form action="/identify_space.html" method="POST" onsubmit="return checkCheckBox(this)">
+
+<!--Enter your form contents here-->
+
+<b>By submitting, I agree to the terms and conditions.</b><br />
+I accept: <input type="checkbox" value="0" name="agree">
+<input type="submit" value="Submit form">
+<input type="button" value="Exit" onclick="document.location.href='/index.html';">
+</form>
 				</div>
 			</section>
 
