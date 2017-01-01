@@ -1,78 +1,27 @@
-<!DOCTYPE HTML>
-<!--
-	Photon by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
-	<head>
-		<title>MITA Enter Right - Identifying Confined Spaces</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	</head>
-	<body>
+<head>
+<script>
+ function disableSubmit() {
+  document.getElementById("submit").disabled = true;
+ }
 
-		<!-- Header -->
-			<!--<section id="header">
-				<div class="inner">
-                     <div>
-                         <h1><strong>Question 1:</strong></h1>
-                                <h1><strong>Can Your Body Enter the Space?</strong></h1>
-                         <br>
-                         <br>
-                    <ul class="actions">
-						<li><a href="question2.html" class="button special">Yes</a></li>
-					</ul>
-                    <ul class="actions">
-						<li><a href="decline.html" class="button special">No</a></li>
-					</ul>
-				</div>
-			</section>-->
-        <SCRIPT language=JavaScript>
+  function activateButton(element) {
 
+      if(element.checked) {
+        document.getElementById("submit").disabled = false;
+       }
+       else  {
+        document.getElementById("submit").disabled = true;
+      }
 
-function checkCheckBox(f){
-if (f.agree.checked == false )
-{
-alert('Please check the box to continue.');
-return false;
-}else
-return true;
-}
-//-->
-</SCRIPT>
+  }
+</script>
+</head>
 
-<form action="/yourscript.cgi-or-your-page.html" method="POST" onsubmit="return checkCheckBox(this)">
-
-<!--Enter your form contents here-->
-
-<b>By submitting, I agree that all info entered was done accurately & truthfully.</b><br />
-I accept: <input type="checkbox" value="0" name="agree">
-<input type="submit" value="Submit form">
-<input type
-
-		<!-- Footer -->
-		<section id="footer">
-				<ul class="icons">
-                    <li><a href="tel:2313279512">Contact Us</a></li>
-                    <li><a href="project_start.html" target="_blank">License Agreement</a></li>
-				</ul>
-				<ul class="copyright">
-					<li>&copy; MITA </li>
-				</ul>
-			</section>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
-	</body>
+<body onload="disableSubmit()">
+ <input type="checkbox" name="terms" id="terms" onchange="activateButton(this)">  I Agree Terms & Coditions
+<br><br>
+  <input type="submit" name="submit" id="submit">
+</body>
 </html>
