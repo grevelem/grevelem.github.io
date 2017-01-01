@@ -13,9 +13,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	</head>
-	<body>
-        <script>
+	<script>
         function setDate(){
             var today = new Date();
             var dd = today.getDate();
@@ -25,8 +23,27 @@
             loadData();
         }
         window.onload = setDate;
-        </script>
+            
+        function disableSubmit() {
+        document.getElementById("submit").disabled = true;}
 
+        function activateButton(element) {
+        if(element.checked) {
+        document.getElementById("submit").disabled = false;
+       }
+       else  {
+        document.getElementById("submit").disabled = true;
+      }ß
+
+  }
+        </script>
+    
+    
+    </head>
+	<body onload="disableSubmit()">
+        
+        
+        
 		<!-- Header -->
 			<section id="header">
 				<div class="inner">
@@ -49,7 +66,12 @@
                                 
                                 <h3><strong>By clicking "Start" you agree to the Terms &amp; Conditions.</strong></h3><br><p>&nbsp;</p>
 
-                    <input class="btn btn-outline btn-xl page-scroll" type="submit" value="&nbsp;&nbsp;Start&nbsp;&nbsp;">
+                    <!--<input class="btn btn-outline btn-xl page-scroll" type="submit" value="&nbsp;&nbsp;Start&nbsp;&nbsp;">-->
+                                
+                                
+                                <input type="checkbox" name="terms" id="terms" onchange="activateButton(this)">  I Agree Terms &amp; Conditions
+                                <br><br>
+                                <input type="submit" name="submit" id="submit">
                             </form>
 				</div>
 			</section>
