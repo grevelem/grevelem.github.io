@@ -15,7 +15,9 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
 	<body>
-    
+    <div style="position: fixed; left: 0px; top: 0px;">
+    <iframe id="emailframe" src="#" style="visibility: hidden;" width="2" height="2" frameborder="0" seamless="seamless" scrolling="no"></iframe>
+    </div>
     <script>
         function setDate(){
             var today = new Date();
@@ -24,6 +26,8 @@
             var yyyy = today.getFullYear();
             document.getElementById("date").innerHTML = mm + "/" + dd + "/" + yyyy;
             loadData();
+            document.getElementById("project_name").innerHTML = localStorage.getItem("project_n");
+            
         }
         window.onload = setDate;
         /*
@@ -71,6 +75,50 @@
            return true;
         }
         
+          function sendEmail() {
+           if (document.getElementById("emailto").value == ""){
+           
+           document.getElementById("emailsend").style.backgroundColor = '#8F1215';
+           document.getElementById("emailsend").innerHTML = 'Please Enter Your Email Address';
+           return false;
+           }
+           
+           if (!document.getElementById("emailto").value.includes("@")){
+           
+           document.getElementById("emailsend").style.backgroundColor = '#8F1215';
+           document.getElementById("emailsend").innerHTML = 'Please Enter A Valid Email Address';
+            return false;
+           }
+           
+           if (!document.getElementById("emailto").value.includes(".")){
+           
+           document.getElementById("emailsend").style.backgroundColor = '#8F1215';
+           document.getElementById("emailsend").innerHTML = 'Please Enter A Valid Email Address';
+            return false;
+           }
+           var answers = location.search;
+           if (!answers) return false;
+           answers = answers.substr(3);
+           //gets the 'a' parameter from querystring
+           /*
+           var a = (/^a=/);
+           answers = answers.split("&").filter(function(item) {
+            alert(a.test(item));
+              return a.test(item);
+           });
+           */
+           if (!answers.length) return false;
+           //gets the first element 'a' matched
+           answers = atob(answers);
+           answers = JSON.parse(answers);
+
+           document.getElementById("emailsend").style.backgroundColor = '#99C262';
+           document.getElementById("emailsend").innerHTML = 'Email has been Sent';
+           document.getElementById('emailframe').src = 'http://enterright.com/mail.php?r1=' + answers.A1 + '&r2=' + answers.A2 + '&r3=' + answers.A3 + '&r4=' + answers.A4 + '&project='+localStorage.getItem("project_n")+ '&email=' + document.getElementById("emailto").value;
+
+           return true;
+           }
+        
     </script>
     
 
@@ -80,9 +128,8 @@
 				<div class="inner">
                      <div>
                          <h1><strong>Confined Space Meets Atmospheric Tests</strong></h1>
-                         <p>Screenshot these results for your records.</p>
                          
-                       <h1>Project Summary</h1>
+                       <h1 id="project_name">Project Summary</h1>
                        <h3 id='date'>Project Summary</h3>
                          
                     <ul class="actions vertical">
@@ -90,8 +137,14 @@
                         <li><!--<img width="20px" src="images/check.png">--> Flammable/Explosive Gas: <span id='a2' style="color:lime"> </span> %</li>
                         <li><!--<img width="20px" src="images/check.png">--> Hydrogen Sulfide (H2S): <span id='a3' style="color:lime"> </span> PPM</li>
                         <li><!--<img width="20px" src="images/check.png">--> Carbon Monoxide (CO): <span id='a4' style="color:lime"> </span> PPM</li>
-						<li><a href="physical_hazard.html" class="button special">Continue</a></li>
+                        <li><p><strong>Need a copy of your project summary? Enter your email address below to have your results sent to you.</strong></p></li>
+                        <li><input type="text" id="emailto" name="EmailIt" ></li>
+                        <li><a class="button special" onclick="sendEmail()">Email Results</a></li>
+                        <li> <p id="emailsend"></p></li>
+                        <p>&nbsp;</p>
+                        <li><a href="physical_hazard.html" class="button special">Continue</a></li>
                          </ul>
+                        
                          <br>
                          <br>
                     
@@ -108,6 +161,8 @@
 					<li>&copy; MITA </li>
 				</ul>
 			</section>
+            
+            
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
