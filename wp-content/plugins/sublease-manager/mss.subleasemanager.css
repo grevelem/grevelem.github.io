@@ -1,0 +1,247 @@
+.manager-tab
+{
+	padding:15px;
+}
+.request
+{
+color:rgb(90, 90, 90);
+display:table;
+background-color: rgb(189, 200, 209);
+width:100%;
+box-sizing:border-box;
+border-bottom: 1px solid #f1f1f1;
+}
+.request:nth-child(2n)
+{
+	background-color: rgba(171, 190, 201, 0.5);
+}
+.request:hover
+{
+background-color: rgb(108, 153, 184);
+color:white;
+cursor:pointer;
+}
+.request.none:hover
+{
+	background-color:transparent;
+	cursor:default;
+	color: rgb(148, 46, 46);
+}
+.request.selected
+{
+	background-color: rgb(222, 253, 210);
+	box-shadow: 0 0 8px rgb(100, 213, 95) inset;
+	color: green;
+}
+}
+.request.selected:hover
+{
+	color: black;
+}
+.request .column
+{
+	display:table-cell;
+	padding:10px;
+	vertical-align: middle;
+}
+.table-headings
+{
+	margin-bottom:5px;
+	display:table;
+	width:100%;
+}
+.table-headings .head
+{
+	display:table-cell;
+	padding:10px;
+}
+.request .id, .table-headings .id
+{
+	padding:10px;
+	background-color: rgb(87, 132, 165);
+	color: white;
+	width:50px;
+}
+.manager h4, .manager h5
+{
+	margin:0;
+}
+.tag.column
+{
+	width:20px;
+	background-color: none;
+}
+.request-info b
+{
+	color: rgb(121, 121, 121);
+}
+.column .request-info
+{
+	float:left;
+	margin-right:10px;
+	width:175px;
+	
+}
+.no-postings
+{
+	width:100%;
+	background-color: rgba(218, 179, 179, 0.5);
+	border: 1px solid rgb(207, 155, 155);
+	color: rgb(148, 46, 46);
+	text-align:center;
+	height:50px;
+	line-height:50px;
+}
+.manager-tab
+{
+overflow: hidden;
+display:none;
+}
+.manager-tab.current
+{
+	display:block;
+}
+.options
+{
+	width: 250px;
+	float: left;
+	background-color: rgb(177, 178, 179);
+	margin-top:66px;
+	padding:15px;
+}
+.option.first
+{
+	margin-top:15px;
+}
+.option
+{
+	background-color: rgb(250, 225, 171);
+	border: 1px solid rgb(158, 113, 32);
+	margin-bottom: 5px;
+	padding:10px;
+	width:100%;
+	
+	text-align:center;
+	box-sizing:border-box;
+	-webkit-box-sizing: border-box;
+}
+.option:hover
+{
+background-color: rgb(255, 247, 223);
+border: 1px solid rgb(211, 135, 0);
+cursor:pointer;
+}
+.tabs
+{
+	width:auto;
+	margin-left:260px;
+}
+.manager-tab-list
+{
+	width:100%;
+	margin-top:15px;
+}
+.manager-tab-list .pad
+{
+	padding-left:1px;
+	height:2px;
+	width:1px;
+	float:left;
+}
+.tab-list-item
+{
+	padding:10px;
+	background-color: #4B4B4B;
+	border: 1px solid rgb(0, 0, 0);
+	border-bottom:0;
+	color:rgb(165, 165, 165);
+	float:left;
+	margin-right:5px;
+}
+.tab-list-item:hover
+{
+background-color:#6B6B6B;
+color: rgb(213, 213, 213);
+cursor:pointer;
+}
+.tab-list-item.selected
+{
+	background-color: #f1f1f1;
+	color:black;
+}
+.manager
+{
+	padding-left:15px;
+}
+.manager.head
+{
+	background-color:rgb(34, 34, 34);
+	color:white;
+	padding-top:15px;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.manager.head h2
+{
+	color: white;
+	margin-top:0;
+}
+#wpcontent
+{
+	margin-left: 160px;
+}
+
+.num-selected
+{
+padding: 15px;
+text-align: center;
+background-color: rgb(203, 233, 203);
+border: 1px solid rgb(114, 180, 119);
+color: green;
+	
+}
+button.btn.first
+{
+	margin-top:5px;
+}
+button.btn
+{
+	border-radius:0;
+	width:100%;
+	box-sizing:border-box;
+	height:35px;
+	margin-bottom:5px;
+}
+
+.btn-primary, .btn-primary:focus
+{
+	background-color: #207952;
+	border-color: #0A351B;
+}
+.btn-primary:focus
+{
+	box-shadow: 0 0 5px green;
+	outline:0;
+}
+.btn-primary:hover
+{
+	background-color: #4C966C;
+	border-color: #276B35;
+}
+.btn-primary.disabled, .btn-primary.disabled:focus
+{
+	background-color: rgb(179, 179, 179);
+	border: 1px solid gray;
+	color: rgb(92, 92, 92);
+	
+}
+.btn-primary.loading, .btn-primary.loading:hover
+{
+	background-image: url("/wp-content/themes/myspartansublease/images/confirm_spinner.gif");
+	background-repeat: no-repeat;
+	background-position: center center;
+	color: transparent;
+	box-shadow: 0 0 21px rgb(23, 75, 13) inset;
+	cursor:default;
+	background-color: #207952;
+}

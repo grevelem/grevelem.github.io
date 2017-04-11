@@ -1,0 +1,226 @@
+.content
+{
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+.details
+{
+	float:left;
+	width:300px;
+	height:527px;
+	overflow:hidden;
+	position:relative;
+}
+.photos
+{
+	margin-left:260px;
+	width: 970px;
+	overflow:hidden;
+}
+.address, .price, .other, .contact
+{
+	padding:10px;
+}
+.owner,.phone,.info
+{
+	margin-top:10px;
+}
+.contact
+{
+width:100%;
+	position:absolute;
+	bottom:0;
+}
+.light
+{
+	background-color:#edefe9;
+}
+.med
+{
+	background-color: #b1c6a8;
+}
+.dark
+{
+	background-color: #18483d;
+	color:white;
+}
+
+h5
+{
+	font-weight:bold;
+}
+.btn
+{
+	width:100%;
+	
+}
+.btn.btn-primary
+{
+	  			
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#DADADA',GradientType=0 ); /* IE6-9 */
+	
+	background-image: -ms-linear-gradient(top, #FFFFFF 0%, #DADADA 100%);
+	background-image: -moz-linear-gradient(top, #FFFFFF 0%, #DADADA 100%);
+	background-image: -o-linear-gradient(top, #FFFFFF 0%, #DADADA 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #DADADA));
+	background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #DADADA 100%);
+	background-image: linear-gradient(to bottom, #FFFFFF 0%, #DADADA 100%);
+	border-color: #646464;
+	color: rgb(53, 53, 53);
+	box-shadow: 0 0 5px rgb(136, 153, 126);
+}
+.btn.btn-primary:hover
+{
+	border-color: #7DAF5B;
+	color: rgb(116, 173, 89);
+}
+
+.separator
+{
+	background-color: rgb(197, 201, 192);
+	height: 2px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid white;
+}
+
+#map-canvas
+{
+	height:100%;
+}
+
+.semester
+{
+	padding: 5px;
+	border-radius: 5px;
+	background-color: rgb(241, 241, 241);
+	border: 1px solid rgb(184, 179, 179);
+	float: left;
+	margin-right: 5px;
+	width: 90px;
+	text-align: center;
+	color: rgb(182, 182, 182);
+}
+.semester.last
+{
+	margin-right:0;
+}
+.semester.summer.active
+{
+	color: white;
+	background-color: rgb(108, 179, 207);
+	border-color: rgb(93, 125, 160);
+}
+.semester.fall.active
+{
+	color: white;
+	background-color: rgb(207, 128, 108);
+	border-color: rgb(160, 112, 93);
+}
+.semester.spring.active
+{
+	color: white;
+	background-color: rgb(140, 207, 108);
+	border-color: rgb(104, 160, 93);
+}
+.all-photos
+{
+	width:296px;
+	overflow:hidden;
+	margin-left:0px;
+	float:right;
+}
+.big-photo
+{
+	width: 669px;
+	margin-left:5px;
+	overflow:hidden;
+	background-color:rgb(231, 231, 231);
+	height: 527px;
+}
+.big-photo img
+{
+	height:527px;
+	text-align:center;
+}
+.photo
+{
+	width: 296px;
+	height: 128px;
+	overflow: hidden;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	text-align:center;
+	position:relative;
+}
+.photo .zoom
+{
+	position:absolute;
+	bottom: 3px;
+	right: 10px;
+	width:26px;
+	height:26px;
+	background-image:url("/wp-content/themes/myspartansublease/images/zoom_icon.png");
+	z-index:1;
+}
+.photo .zoom:hover, .photo:hover .zoom
+{
+	background-position: 0 -26px;
+	cursor:pointer;
+}
+.photo.selected
+{
+	background-color:#c4eeb0;
+}
+.photo.selected img
+{
+	opacity:0.5;
+}
+.photo img
+{
+	width:296px;
+	position:relative;
+}
+.go-back
+{
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:15px;
+}
+.go-back .link
+{
+	padding:15px;
+}
+.modal-footer .btn + .btn
+{
+	margin-left:0;
+	margin-top:8px;
+}
+
+.special-inclusion
+{
+	margin-top: 10px;
+	padding: 10px;
+	background-color: rgb(212, 235, 202);
+	border: 1px solid rgb(76, 187, 49);
+	border-radius: 15px;
+	padding-left:45px;
+	background-image:url("/wp-content/themes/myspartansublease/images/checkmark.png");
+	background-repeat:no-repeat;
+	background-position: 10px center;
+}
+.not-included
+{
+	margin-top: 10px;
+	padding: 10px;
+	background-color: rgb(221, 221, 221);
+	border: 1px solid rgb(167, 167, 167);
+	color: gray;
+	border-radius: 15px;
+	padding-left:45px;
+	background-image:url("/wp-content/themes/myspartansublease/images/delete.png");
+	background-repeat:no-repeat;
+	background-position: 10px center;
+}

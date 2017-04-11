@@ -1,0 +1,26 @@
+<?php
+error_reporting(E_ALL ^ E_NOTICE ^ E_DEPRECATED);
+
+require_once "Mail.php";
+$host = "ssl://smtp.gmail.com";
+$username = "info@myspartansublease.com";
+$password = "respondfast";
+$port = "465";
+$to = "dreamhosttest@gmail.com";
+$email_from = "dreamhosttest@gmail.com";
+$email_subject = "Subject Line Here: " ;
+$email_body = "whatever you like" ;
+
+$headers = array ('From' => $email_from, 'To' => $to, 'Subject' => $email_subject, 'Reply-To' => $email_address);
+
+$smtp = Mail::factory('smtp', array ('host' => $host, 'port' => $port, 'auth' => true, 'username' => $username, 'password' => $password));
+
+$mail = $smtp->send($to, $headers, $email_body);
+
+if (PEAR::isError($mail)) {
+echo("<p>" . $mail->getMessage() . "</p>");
+} else {
+echo("<p>Message successfully sent!</p>");
+}
+
+?>

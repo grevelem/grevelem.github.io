@@ -1,0 +1,321 @@
+/* management styles */
+
+.admin-head
+{
+	padding:15px;
+	font-size:2em;
+}
+.admin-head a
+{
+	font-size:0.5em;
+}
+.internal
+{
+	color:red;
+}
+.body
+{
+	margin-bottom:15px;
+}
+h2
+{
+	font-size:1.4em;
+	padding-left:5px;
+}
+.section
+{
+	width: 632px;
+	margin-top:15px;
+}
+.section.standalone
+{
+	margin: 0 auto 0 auto;
+}
+.section.request-to-edit, .section.default
+{
+	margin-left:15px;
+		float:left;
+}
+.semester-selector label
+{
+	width:197px;
+}
+.separator
+{
+	width:100%;
+	height:1px;
+	border-bottom:1px solid gray;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.no-request-selected
+{
+	color:gray;
+	line-height:300px;
+	width:100%;
+	text-align:center;
+	font-size:1.8em;
+}
+.request
+{
+display:table;
+background-color: rgb(57, 102, 80);
+width:100%;
+border-bottom: 1px solid #18483d;
+}
+.request:nth-child(2n)
+{
+	background-color: rgba(57, 102, 80, 0.5);
+}
+.request:hover
+{
+background-color: rgb(79, 129, 105);
+cursor:pointer;
+border: 1px solid white;
+}
+.request .column
+{
+	display:table-cell;
+	padding:10px;
+}
+.table-headings
+{
+	margin-bottom:5px;
+	display:table;
+	width:100%;
+}
+.table-headings .head
+{
+	display:table-cell;
+	padding:10px;
+}
+.request .id, .table-headings .id
+{
+	padding:10px;
+	background-color:rgb(21, 46, 41);
+	width:100px;
+}
+.failure
+{
+	width:100%;
+	background-color: rgb(79, 129, 105);
+	text-align:center;
+	height:50px;
+	line-height:50px;
+	color:white;
+	margin-top:15px;
+	margin-bottom:15px;
+	border:1px solid rgb(21, 46, 41);
+}
+
+button.btn
+{
+	border-radius:0;
+}
+.modal-content
+{
+	border-radius:0;
+}
+.modal-footer
+{
+	padding: 15px;
+	margin-top:0;
+}
+button.full
+{
+	display:block;
+	width:100%;
+	margin-left:0;
+	margin-bottom:15px;
+	height:50px;
+}
+.modal-footer .btn + .btn
+{
+	margin-left:0;
+}
+.btn-primary, .btn-primary:focus
+{
+	background-color: #207952;
+	border-color: #0A351B;
+}
+.btn-primary:focus
+{
+	box-shadow: 0 0 5px green;
+	outline:0;
+}
+.btn-primary:hover
+{
+	background-color: #4C966C;
+	border-color: #276B35;
+}
+.btn-primary.disabled, .btn-primary.disabled:focus
+{
+	background-color: rgb(179, 179, 179);
+	border: 1px solid gray;
+	color: rgb(92, 92, 92);
+	
+}
+.btn-primary.loading, .btn-primary.loading:hover
+{
+	background-image: url("/wp-content/themes/myspartansublease/images/confirm_spinner.gif");
+	background-repeat: no-repeat;
+	background-position: center center;
+	color: transparent;
+	box-shadow: 0 0 21px rgb(23, 75, 13) inset;
+	cursor:default;
+	background-color: #207952;
+}
+.btn.btn-checkbox
+{
+	width:100%;
+	background-image: url("/wp-content/themes/myspartansublease/images/checkbox.png");
+	background-position: 15px center;
+	background-repeat: no-repeat;
+	padding: 15px;
+	border: 1px solid gray;
+}
+.btn-default.disabled, .btn-default.disabled:hover
+{
+	background-color: rgb(202, 202, 202);
+	color: rgb(170, 170, 170);
+}
+.btn.btn-checkbox.active
+{
+	background-image: url("/wp-content/themes/myspartansublease/images/checkbox_checked.png");
+	box-shadow: none;
+	color: rgb(91, 116, 89);
+	background-color: rgb(182, 241, 163);
+	border: 1px solid rgb(119, 214, 119);
+}
+.sublease-image.first
+{
+	margin-left:0;
+}
+.sublease-image input
+{
+	display:none;
+}
+.sublease-image
+{
+	background-color: rgb(197, 197, 197);
+	border: 1px solid rgb(155, 155, 155);
+	width: 136px;
+	height: 136px;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	margin-left:15px;
+	margin-bottom:15px;
+	float:left;
+	text-align:center;
+	position:relative;
+	background-image: url("/wp-content/themes/myspartansublease/images/add_photo.png");
+}
+
+.sublease-image:hover
+{
+	cursor:pointer;
+	background-image: url("/wp-content/themes/myspartansublease/images/add_photo_hover.png");
+}
+.sublease-image:active
+{
+	box-shadow: 0px 3px 6px rgba(0,0,0,0.2) inset;
+
+}
+.sublease-image.uploading
+{
+	background-image: url("/wp-content/themes/myspartansublease/images/ajax-loader.gif");
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+.sublease-image.uploaded
+{
+	background-image:none;
+	background-color: rgb(189, 245, 189);
+	color: green;
+	border: 1px solid rgb(72, 170, 72);
+}
+.type
+{
+	position:absolute;
+	bottom:10px;
+	width:100%;
+}
+.image img
+{
+	width:135px;
+}
+.image
+{
+	height:96px;
+	overflow:hidden;
+}
+.desc
+{
+	font-size:0.8em;
+	padding-left:5px;
+	margin-bottom:15px;
+}
+
+.good-to-go
+{
+	background-image: url("/wp-content/themes/myspartansublease/images/checkmark.png");
+	background-position: top left;
+	background-repeat:no-repeat;
+	width:25px;
+	height:25px;
+	position:absolute;
+	top:-12px;
+	left:-12px;
+}
+.delete
+{
+	background-image: url("/wp-content/themes/myspartansublease/images/delete.png");
+	background-position: top left;
+	background-repeat:no-repeat;
+	width:25px;
+	height:25px;
+	position:absolute;
+	top:-12px;
+	left:-12px;
+}
+
+button.half
+{
+	width:50%;
+	float:left;
+}
+button.Approve
+{
+	background-image: -ms-linear-gradient(top, #20B155 0%, #215F3A 100%);
+	background-image: -moz-linear-gradient(top, #20B155 0%, #215F3A 100%);
+	background-image: -o-linear-gradient(top, #20B155 0%, #215F3A 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #20B155), color-stop(1, #215F3A));
+	background-image: -webkit-linear-gradient(top, #20B155 0%, #215F3A 100%);
+	background-image: linear-gradient(to bottom, #20B155 0%, #215F3A 100%);
+}
+button.Reject
+{
+	background-image: -ms-linear-gradient(top, #B12020 0%, #5F2121 100%);
+	background-image: -moz-linear-gradient(top, #B12020 0%, #5F2121 100%);
+	background-image: -o-linear-gradient(top, #B12020 0%, #5F2121 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #B12020), color-stop(1, #5F2121));
+	background-image: -webkit-linear-gradient(top, #B12020 0%, #5F2121 100%);
+	background-image: linear-gradient(to bottom, #B12020 0%, #5F2121 100%);
+}
+div.disabled
+{
+	padding: 5px;
+	background-color: rgb(212, 219, 210);
+}
+
+.state-review, .state-rejected, .state-live, .state-readonly, .state-default
+{
+	display:none;
+}
+#adminNav
+{
+padding: 5px;
+background-color: lightGrey;
+border-bottom: 2px solid rgb(187, 187, 187);
+position:absolute;
+}
